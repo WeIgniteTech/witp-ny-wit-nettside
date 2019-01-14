@@ -1,0 +1,72 @@
+ body {
+     padding-top: 3vh;
+    
+ }
+.container{
+    padding: 2vh;
+}
+header .navbar{
+    background-color: rgba(203, 239, 250, 0.56);
+    padding: 1vvh;
+}
+.header-content{
+    background-color: #a59c9c;
+    min-height: 40vh;
+    border: .5px solid black;
+}
+.body-content{
+    background-color: rgba(128, 128, 128, 0.34);
+    min-height: 60vh;
+    border: 0.5px solid black;
+}
+.end-content{
+
+}
+.right-div{
+    background-color: #d9bfbf;
+    padding-top:15vh; 
+    width: 50%;
+    max-width: 50vw;
+    height: 30vh;
+    border: .5px solid black;
+}
+
+.testimonial-Slider{
+    width: 50%;
+    max-width:50vw;  
+    height: 30vh;
+}
+.navbar-brand{
+     font-family:'Major Mono Display';
+     font-size: 6vh;
+    padding: 0vh;
+}
+
+.nav-item{
+    
+}
+.nav-link:hover{
+    color: lightblue;
+}
+
+#testemonials h3{
+    color: grey;
+    text-transform: uppercase
+
+}
+#testemonials p{
+    font-family:'Courgette';
+    color: darkblue;
+}
+
+
+/*Making the page responsive 
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+    
+} */
