@@ -28,3 +28,12 @@ li a {
 li a:hover {
     background-color: #111;
 }
+.carousel-caption p {
+    font-size: 20px;
+    font-style: oblique;
+}
+.carousel-caption h3{
+    font-size: 20px;}
+.carousel{
+
+}
