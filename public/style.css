@@ -1,0 +1,14 @@
+body {
+    background-color: #3e6a77;
+}
+
+.departure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    padding: 10px;
+    background-color: #7a7575;
+    border-radius: 4px;
+}

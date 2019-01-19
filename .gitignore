@@ -1,0 +1,13 @@
+# IntelliJ
+.idea
+
+# Dependency directories
+node_modules/
+
+# This one might be found in SCM
+#  but it is platform dependent (Mac/Linux)
+#  We ignore it for the moment
+package-lock.json  
+
+# Mac
+.DS_Store
