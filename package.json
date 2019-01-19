@@ -1,0 +1,22 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "module": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "thomas <thomas.dufourd@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.0.84",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
