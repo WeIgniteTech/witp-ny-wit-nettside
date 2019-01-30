@@ -331,3 +331,16 @@ color: #FF5733;
         .form-container .btn:hover, .open-button:hover {
             opacity: 1;
         }
+
+
+
+ /* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    font-style: oblique;
+}
+.carousel-caption h3{
+    font-size: 20px;}
+.carousel{
+
+}
