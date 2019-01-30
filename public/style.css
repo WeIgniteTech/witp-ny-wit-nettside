@@ -110,3 +110,179 @@ color: #517fa4;
 .fa-instagram:hover {
 color: #FF5733;
 }
+ body {
+     padding-top: 3vh;
+    
+ }
+.container{
+    padding: 1vh;
+}
+header .navbar{
+    background-color: rgba(203, 239, 250, 0.56);
+    padding: 1vvh;
+}
+.header-content{
+    margin-bottom: 2vh;
+    background-color: #a59c9c;
+    min-height: 20vh;
+    border: .5px solid black;
+}
+.body-content{
+    min-height: 60vh;
+    border: 0.5px solid black;
+}
+.end-content{
+
+}
+.right-div{
+    background-color: #d9bfbf;
+    padding-top:15vh; 
+    width: 50%;
+    max-width: 50vw;
+    height: 30vh;
+    border: .5px solid black;
+}
+
+.testimonial-Slider{
+    width: 50%;
+    max-width:50vw;  
+    height: 30vh;
+}
+.navbar-brand{
+     font-family:'Major Mono Display';
+     font-size: 3vh;
+     padding: 0vh;
+}
+
+.nav-item{
+    /* Something here*/
+}
+
+
+li a:hover {
+    color: #111;
+}
+
+/*Main area */
+#mission-message{
+    font-family: Pompiere;
+    font-size: 3vh;
+}
+
+#testemonials h3{
+    color: green;
+    text-transform: uppercase;
+    font-size:1vh;
+
+}
+#testemonials p{
+    font-family:'Courgette';
+    color: white;
+    font-size: 1.vh;
+}
+
+
+/*Making the page responsive 
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width: 14rem;
+    }
+    .section-4 .col-md-7 img{
+        width: 350px;
+    }
+    
+} */
+
+#submit {
+  text-align: center;
+  color: black;
+}
+
+
+/* social media icons */
+.social a {
+font-size: 5rem;
+padding: 4rem;
+}
+
+.fa-facebook {
+color: #3b5998;
+}
+
+.fa-github {
+color: #35465c;
+}
+
+.fa-instagram {
+color: #517fa4;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+color: #FF5733;
+}
+/*CHAT*/
+ * {box-sizing: border-box;}
+        /* Button used to open the chat form - fixed at the bottom of the page */
+        .open-button {
+            background-color: black;
+            color: white;
+            padding: 5px 7px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 280px;
+        }
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+        }
+        /* Full-width textarea */
+        .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 200px;
+        }
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Set a style for the submit/send button */
+        .form-container .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom:10px;
+            opacity: 0.8;
+        }
+        /* Add a red background color to the cancel button */
+        .form-container .cancel {
+            background-color: red;
+        }
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover, .open-button:hover {
+            opacity: 1;
+        }
