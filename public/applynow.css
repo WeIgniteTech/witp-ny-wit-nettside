@@ -1,88 +1,173 @@
 .navbar-brand{
+
     float: left;
+
 }
+
 .navbar{
+
     float: right;
+
 }
+
 ul {
+
     list-style-type: none;
+
     margin: 0;
+
     padding: 0;
+
     overflow: hidden;
+
     background-color: #333;
+
 }
+
+
 
 li {
+
     float: right;
+
 }
+
+
 
 li a {
+
     display: block;
+
     color: white;
+
     text-align: center;
+
     padding: 14px 16px;
+
     text-decoration: none;
+
 }
+
+
 
 /* Change the link color to #111 (black) on hover */
+
 li a:hover {
+
     background-color: #111;
-}
-body{
-    background-color: darkcyan;
-}
-.modal-containercontainer h2{
-    font-size: 18px;
-    font-family: monospace;
-    padding-right: 10px;
-    position: -webkit-sticky;
 
 }
-.button-container button{
-    cursor: pointer;
+
+body{
+
+    background-color: darkcyan;
+
 }
+
+.modal-containercontainer h2{
+
+    font-size: 18px;
+
+    font-family: monospace;
+
+    padding-right: 10px;
+
+    position: -webkit-sticky;
+
+
+
+}
+
+.button-container button{
+
+    cursor: pointer;
+
+}
+
+
 
 .modal-body body    {
 
+
+
     font-family: monospaced;
+
     margin-top: 50px;
+
     margin-bottom: 90px;
+
     padding-left: 30px;
+
     padding-right: 40px;
-}
-.modal-container{
-    width: -moz-fit-content;
-}
-.modal-body h1 {
-    font-size: 22px;
-    text-align: center;
-    color: green;
-    font-weight: bold;
+
 }
 
-.modal-body #header {
-    text-align: center;
-    color: green;
-    font-weight: bold;
+.modal-container{
+
+    width: -moz-fit-content;
+
 }
+
+.modal-body h1 {
+
+    font-size: 22px;
+
+    text-align: center;
+
+    color: green;
+
+    font-weight: bold;
+
+}
+
+
+
+.modal-body #header {
+
+    text-align: center;
+
+    color: green;
+
+    font-weight: bold;
+
+}
+
+
+
+
 
 
 
 .modal-body h4 {
+
     font-weight: bold;
+
     font-style: italic;
+
 }
+
+
 
 .modal-body #submit {
+
     text-align: center;
+
     font-weight: bold;
-}
-.button-container{
-    float: right;
-}
-.button-container h2{
-    font-family: monospace;
-    font-size: 16px;
-    margin-right: 0px;
+
 }
 
+.button-container{
+
+    float: right;
+
+}
+
+.button-container h2{
+
+    font-family: monospace;
+
+    font-size: 16px;
+
+    margin-right: 0px;
+
+}

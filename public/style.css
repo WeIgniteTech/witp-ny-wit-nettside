@@ -1,30 +1,223 @@
+body {
+
+    padding-top: 3vh;
+
+
+
+}
+
+.container{
+
+    padding: 1vh;
+
+}
+
+header .navbar{
+
+    background-color: rgba(203, 239, 250, 0.56);
+
+    padding: 1vvh;
+
+}
+
+.header-content{
+
+    margin-bottom: 2vh;
+
+    background-color: #a59c9c;
+
+    min-height: 20vh;
+
+    border: .5px solid black;
+
+}
+
+.body-content{
+
+    min-height: 60vh;
+
+    border: 0.5px solid black;
+
+}
+
+.end-content{
+
+
+
+}
+
+.right-div{
+
+    background-color: #d9bfbf;
+
+    padding-top:15vh;
+
+    width: 50%;
+
+    max-width: 50vw;
+
+    height: 30vh;
+
+    border: .5px solid black;
+
+}
+
+
+
+.testimonial-Slider{
+
+    width: 50%;
+
+    max-width:50vw;
+
+    height: 30vh;
+
+}
+
 .navbar-brand{
-    float: left;
-}
-.navbar{
-    float: right;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+
+    font-family:'Major Mono Display';
+
+    font-size: 3vh;
+
+    padding: 0vh;
+
 }
 
-li {
-    float: right;
+
+
+.nav-item{
+
+    /* Something here*/
+
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
-/* Change the link color to #111 (black) on hover */
+
+
+
 li a:hover {
-    background-color: #111;
+
+    color: #111;
+
+}
+
+
+
+/*Main area */
+
+#mission-message{
+
+    font-family: Pompiere;
+
+    font-size: 3vh;
+
+}
+
+
+
+#testemonials h3{
+
+    color: green;
+
+    text-transform: uppercase;
+
+    font-size:1vh;
+
+
+
+}
+
+#testemonials p{
+
+    font-family:'Courgette';
+
+    color: white;
+
+    font-size: 1.vh;
+
+}
+
+
+
+
+
+/*Making the page responsive 
+
+@media screen and (max-width: 768px){
+
+    .section-1 .card{
+
+        width: 14rem;
+
+    }
+
+    .section-4 .col-md-7 img{
+
+        width: 350px;
+
+    }
+
+    
+
+} */
+
+
+
+#submit {
+
+    text-align: center;
+
+    color: black;
+
+}
+
+
+
+
+
+/* social media icons */
+
+.social a {
+
+    font-size: 5rem;
+
+    padding: 4rem;
+
+}
+
+
+
+.fa-facebook {
+
+    color: #3b5998;
+
+}
+
+
+
+.fa-github {
+
+    color: #35465c;
+
+}
+
+
+
+.fa-instagram {
+
+    color: #517fa4;
+
+}
+
+
+
+.fa-facebook:hover,
+
+.fa-github:hover,
+
+.fa-instagram:hover {
+
+    color: #FF5733;
+
 }
