@@ -1,7 +1,7 @@
-body {
-    padding-top: 3vh;
-
-}
+ body {
+     padding-top: 3vh;
+    
+ }
 .container{
     padding: 1vh;
 }
@@ -24,7 +24,7 @@ header .navbar{
 }
 .right-div{
     background-color: #d9bfbf;
-    padding-top:15vh;
+    padding-top:15vh; 
     width: 50%;
     max-width: 50vw;
     height: 30vh;
@@ -33,13 +33,13 @@ header .navbar{
 
 .testimonial-Slider{
     width: 50%;
-    max-width:50vw;
+    max-width:50vw;  
     height: 30vh;
 }
 .navbar-brand{
-    font-family:'Major Mono Display';
-    font-size: 3vh;
-    padding: 0vh;
+     font-family:'Major Mono Display';
+     font-size: 3vh;
+     padding: 0vh;
 }
 
 .nav-item{
@@ -70,7 +70,7 @@ li a:hover {
 }
 
 
-/*Making the page responsive
+/*Making the page responsive 
 @media screen and (max-width: 768px){
     .section-1 .card{
         width: 14rem;
@@ -78,86 +78,63 @@ li a:hover {
     .section-4 .col-md-7 img{
         width: 350px;
     }
+    
+} 
 
-}
 /* -- contact us -- */
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
 body {
-
-    font-family: monospaced;
-    margin-top: 50px;
-    margin-bottom: 90px;
-    padding-left: 30px;
-    padding-right: 40px;
+  
+  font-family: monospaced;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 h1 {
-    text-align: center;
-    color: green;
-    font-weight: bold;
+  text-align: center;
+  color: green;
+  font-weight: bold;
 }
-
+  
 .container {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 #submit {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 /* social media icons */
 .social a {
-    font-size: 5rem;
-    padding: 4rem;
+font-size: 5rem;
+padding: 4rem;
 }
 
 .fa-facebook {
-    color: #3b5998;
+color: #3b5998;
 }
 
 .fa-github {
-    color: #35465c;
+color: #35465c;
 }
 
 .fa-instagram {
-    color: #517fa4;
+color: #517fa4;
 }
 
 .fa-facebook:hover,
 .fa-github:hover,
 .fa-instagram:hover {
-    color: #FF5733;
+color: #FF5733;
 }
-body {
-    padding-top: 3vh;
-
-}
+ body {
+     padding-top: 3vh;
+    
+ }
 .container{
     padding: 1vh;
 }
@@ -180,7 +157,7 @@ header .navbar{
 }
 .right-div{
     background-color: #d9bfbf;
-    padding-top:15vh;
+    padding-top:15vh; 
     width: 50%;
     max-width: 50vw;
     height: 30vh;
@@ -189,13 +166,13 @@ header .navbar{
 
 .testimonial-Slider{
     width: 50%;
-    max-width:50vw;
+    max-width:50vw;  
     height: 30vh;
 }
 .navbar-brand{
-    font-family:'Major Mono Display';
-    font-size: 3vh;
-    padding: 0vh;
+     font-family:'Major Mono Display';
+     font-size: 3vh;
+     padding: 0vh;
 }
 
 .nav-item{
@@ -226,7 +203,7 @@ li a:hover {
 }
 
 
-/*Making the page responsive
+/*Making the page responsive 
 @media screen and (max-width: 768px){
     .section-1 .card{
         width: 14rem;
@@ -234,106 +211,106 @@ li a:hover {
     .section-4 .col-md-7 img{
         width: 350px;
     }
-
+    
 } */
 
 #submit {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
 
 /* social media icons */
 .social a {
-    font-size: 5rem;
-    padding: 4rem;
+font-size: 5rem;
+padding: 4rem;
 }
 
 .fa-facebook {
-    color: #3b5998;
+color: #3b5998;
 }
 
 .fa-github {
-    color: #35465c;
+color: #35465c;
 }
 
 .fa-instagram {
-    color: #517fa4;
+color: #517fa4;
 }
 
 .fa-facebook:hover,
 .fa-github:hover,
 .fa-instagram:hover {
-    color: #FF5733;
+color: #FF5733;
 }
 /*CHAT*/
-* {box-sizing: border-box;}
-/* Button used to open the chat form - fixed at the bottom of the page */
-.open-button {
-    background-color: black;
-    color: white;
-    padding: 5px 7px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.8;
-    position: fixed;
-    bottom: 23px;
-    right: 28px;
-    width: 280px;
-}
-/* The popup chat - hidden by default */
-.chat-popup {
-    display: none;
-    position: fixed;
-    bottom: 0;
-    right: 15px;
-    border: 3px solid #f1f1f1;
-    z-index: 9;
-}
-/* Add styles to the form container */
-.form-container {
-    max-width: 300px;
-    padding: 10px;
-    background-color: white;
-}
-/* Full-width textarea */
-.form-container textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    border: none;
-    background: #f1f1f1;
-    resize: none;
-    min-height: 200px;
-}
-/* When the textarea gets focus, do something */
-.form-container textarea:focus {
-    background-color: #ddd;
-    outline: none;
-}
-/* Set a style for the submit/send button */
-.form-container .btn {
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-}
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-    background-color: red;
-}
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-}
+ * {box-sizing: border-box;}
+        /* Button used to open the chat form - fixed at the bottom of the page */
+        .open-button {
+            background-color: black;
+            color: white;
+            padding: 5px 7px;
+            border: none;
+            cursor: pointer;
+            opacity: 0.8;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 280px;
+        }
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+        }
+        /* Full-width textarea */
+        .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 200px;
+        }
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        /* Set a style for the submit/send button */
+        .form-container .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom:10px;
+            opacity: 0.8;
+        }
+        /* Add a red background color to the cancel button */
+        .form-container .cancel {
+            background-color: red;
+        }
+        /* Add some hover effects to buttons */
+        .form-container .btn:hover, .open-button:hover {
+            opacity: 1;
+        }
 
 
 
-/* Carousel */
+ /* Carousel */
 .carousel-caption p {
     font-size: 20px;
     font-style: oblique;
@@ -344,7 +321,7 @@ li a:hover {
 
 }
 
-/* Apply nowl */
+ /* Apply nowl */
 
 .modal-containercontainer h2{
     font-size: 18px;
