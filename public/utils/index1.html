@@ -24,7 +24,6 @@
     font-family: 'Major Mono Display', monospace;
     font-family: 'Pompiere', cursive;         -->
     <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
-
 </head>
 
 <body>
@@ -43,13 +42,13 @@
                         <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link aboutUs" href="#">Apply Now!</a>
+                    <a class="nav-link aboutUs" href="applynow.html">Apply Now!</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link aboutUs" href="#">About Us</a>
+                    <a class="nav-link aboutUs" href="about%20us.html" target="_self">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled " href="#">How and Why</a>
+                    <a class="nav-link disabled " href=contactform.html" target="_self">How and Why</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled" href="#">Testimonials</a>
@@ -68,9 +67,83 @@
     </nav>
 </header>
 <!-- Getting space between header and main-container -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<div class="button-container">
+    <h2>Click for taking information<br/>about future courses</h2>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal"><img src="images/information.png" style="width: 50px" alt="information"> </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">E-mail Notification</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- Contact Form -->
+
+                    <h1 id="header">Take Notification About Course Dates</h1>
+
+                    <section id="contact">
+                        <div class="modal-container">
+
+                            <!-- <div class="col-lg-12 about-top-space text-center"> -->
+
+                            <label for="name" id="name">Name:</label>
+                            <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
 
 
-<link rel="import" type="text/html" href="carousel.html">
+
+                            <br>
+
+                            <label for="email" id="email">Email Address:</label>
+                            <input autofocus type="text" id="email-label" name="email" class="form-control" placeholder="Enter your email address" required>
+
+                            <br>
+
+
+                            <div class="rowTab">
+
+                            </div>
+                            <div id="submit"><input type="submit" name="submit" value="Submit Now">
+                            </div>
+                            <br>
+
+                            </form>
+                        </div>
+
+                    </section>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<br>
+<br>
+
+<!-- <frame for google forms> -->
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6DhJr_ANaVx-KUkrrgpBLdfWVpifaIhunaDR8CwRzFdFzpA/viewform?embedded=true" width="1024px" height="768" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+</main>
 <footer class="footer">
     <div class="container text-center">
         <a class="btn btn-link" href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x " aria-hidden="true"></i></a>
@@ -85,7 +158,12 @@
     </div>
 </footer>
 
-
+<!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
+<div class="script" content="take script out of div and place at the bottom after editing!">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</div>
 </body>
 
 </html>
