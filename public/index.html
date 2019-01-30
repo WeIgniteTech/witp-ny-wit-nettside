@@ -24,12 +24,49 @@
     font-family: 'Major Mono Display', monospace;
     font-family: 'Pompiere', cursive;         -->
     <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
+    </head>
 
+<body>
+<header class="container">
+    <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <a class="navbar-brand ml-3" href="index.html"><b style="font-size: 4vh">W</b>e<span style="color:rgba(0, 0, 139, 0.86); font-size: 3.8vh;"><b>I</b></span>gnite<span style="color:#1212e3; font-size:3.6vh;"><b>T</b></span>ech
+            <!--Todo: could make a cool animation with the acronym as it is only straight lines --></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse right" id="navbarMenu">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link aboutUs" href="about%20us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="dropdown-item" href="applynow.html">Apply Now</a>
+                    <!-- Application form here -->
+
+                <li class="nav-item">
+                    <a class="nav-link contactUs" href="contactus.html">Contact Us</a>
+        </div>
+        </li>
+        </ul>
+        </div>
+    </nav>
+</header>
+
+
+
+<!-- Getting space between header and main-container -->
+<br>
+<br>
 
 
 
     <!--   Carousel       -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="wit-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -46,11 +83,11 @@
                 <img class="d-block w-100" src="images/IMG_20181213_180359.jpg" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#wit-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#wit-carousel" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
