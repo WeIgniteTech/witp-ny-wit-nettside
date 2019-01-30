@@ -1,30 +1,55 @@
-.navbar-brand{
-    float: left;
-}
-.navbar{
-    float: right;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: right;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+  background-color: #111;
+}
+body {
+  
+  font-family: monospaced;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+  
+.container {
+  color: black;
+  font-weight: bold;
+}
+
+#submit {
+  text-align: center;
+  color: black;
+}
+
+
+/* social media icons */
+.social a {
+font-size: 5rem;
+padding: 4rem;
+}
+
+.fa-facebook {
+color: #3b5998;
+}
+
+.fa-github {
+color: #35465c;
+}
+
+.fa-instagram {
+color: #517fa4;
+}
+
+.fa-facebook:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+color: #FF5733;
 }
