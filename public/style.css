@@ -388,3 +388,34 @@ color: #FF5733;
     text-align:center;
 
 }
+
+/* button interest for witp program */
+
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.input-group {
+    margin: 20px auto;
+    width: 100%;
+}
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    outline: none;
+    width: 60%;
+    height: 60px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color: #fff;
+}
+button.btn {
+    width: 40%;
+    height: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    background-color: #111;
+}
+.promise {
+    color: #999;
+}
