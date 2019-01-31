@@ -3,9 +3,13 @@ Den nye nettsiden skal forklare programmet og være et bindeledd mellom kurshold
 
 Prosjektet skal inholde:
 LandingPage, en kort intro om programmet. 
+
 AboutUs, side som går mer i dybden av progammet.
-ContactUs, kontaktskjema hvor du kan legge inn informasjon og spørsmål får å bli kontaktet. 
+
+ApplyNow/ContactUs, kontaktskjema hvor du kan legge inn informasjon og spørsmål får å bli kontaktet. 
+
 Testemonials, side om de som har tatt problemet. 
+
 
 Alle sidene skal ha chatten, nede til høyre.
 
