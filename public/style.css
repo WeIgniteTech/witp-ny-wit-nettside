@@ -311,10 +311,16 @@ color: #FF5733;
 
 
  /* Carousel */
- body {
-    padding-right: 0px;
-    padding-left: 0px;
-}
+ body,
+ .carousel-inner,
+ .carousel-inner .item {
+     padding-right: 0px;
+     padding-left: 0px;
+ }
+ .d-block{
+     max-height:700px;
+
+ }
 
  /* Apply nowl */
 
