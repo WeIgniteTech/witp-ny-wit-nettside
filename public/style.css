@@ -15,6 +15,12 @@ header .navbar{
     min-height: 20vh;
     border: .5px solid black;
 }
+/*  Header; image carousel  */
+.page-header-img{
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+}
 .body-content{
     min-height: 60vh;
     border: 0.5px solid black;
