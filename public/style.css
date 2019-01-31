@@ -311,18 +311,46 @@ color: #FF5733;
 
 
  /* Carousel */
- body,
- .carousel-inner,
- .carousel-inner .item {
-     padding-right: 0px;
-     padding-left: 0px;
- }
- .d-block{
-     max-height:700px;
-
+ body, html
+ .carousel-inner{
+     margin: 0;
+     height: 100%;
+     text-align: center;
+     font-family: 'monospace', monospace;
+     color: #999;
  }
 
- /* Apply nowl */
+ h5 {
+     text-transform: uppercase;
+     letter-spacing: 1pt;
+     font-size: 50pt;
+     margin-bottom: 15px;
+     color: white;
+ }
+
+ p5 {
+     text-align: center;
+     margin: 0;
+     /* text-transform: lowercase; */
+     font-size: 40pt;
+     font-weight: 900;
+     width: 50%;
+     display:none;
+     color: white;
+ }
+
+ #table {
+     display: table;
+     width: 100%;
+     height: 100%;
+     background-color: transparent;
+ }
+
+ #centeralign {
+     display: table-cell;
+     vertical-align: middle;
+ }
+ /* Apply now */
 
 .modal-containercontainer h2{
     font-size: 18px;
