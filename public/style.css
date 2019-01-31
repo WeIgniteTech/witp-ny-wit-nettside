@@ -3,11 +3,10 @@
     
  }
 .container{
-    padding: 1vh;
+    padding-bottom: 1vh;
 }
-header .navbar{
-    background-color: rgba(203, 239, 250, 0.56);
-    padding: 1vvh;
+.navbar{
+   background-color: rgba(45, 166, 255, 0.71);
 }
 .header-content{
     margin-bottom: 2vh;
