@@ -1,7 +1,12 @@
-Beskrivelse om WITP_ny nettside
-Den nye nettsiden skal være en forklaring om programmet og det vi skal gjøre og det som ble gjort og et bindeledd mellom WIT leder og andre som interessert i.
-Prosjektet skal inholde chat og bilder og videoer og vi vil at den skal bli kjent av så mange som mulig.
-Vi vil gjerne at vi lage et fint prosjekt og at det bli nyttig til alle.
-Vi lagde mange ting med teamet og vi ønsker lykken til alle.
-Henrek , Hiruth,Grace,Osman,Jehad(witp-ny nettside team)
+Beskrivelse om: WIT:IP ny WIT nettside
+Den nye nettsiden skal forklare programmet og være et bindeledd mellom kursholdere og potensielle deltakere.
 
+Prosjektet skal inholde:
+LandingPage, en kort intro om programmet. 
+AboutUs, side som går mer i dybden av progammet.
+ContactUs, kontaktskjema hvor du kan legge inn informasjon og spørsmål får å bli kontaktet. 
+Testemonials, side om de som har tatt problemet. 
+
+Alle sidene skal ha chatten, nede til høyre.
+
+Hilsen WIT:IP-ny WIT nettside team Hiruth, Grace, Osman og Jehad .
