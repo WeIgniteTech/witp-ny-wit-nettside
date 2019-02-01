@@ -2,6 +2,11 @@
 body {
   font-family: monospaced;
 }
+
+.col-12 h1 {
+  color: black;
+  padding: 40px;
+}
   
 .container {
   color: black;
