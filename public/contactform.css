@@ -1,35 +1,19 @@
+
 body {
-
   font-family: monospaced;
-  margin-top: 50px;
-  margin-bottom: 90px;
-  padding-left: 30px;
-  padding-right: 40px;
 }
-
-h1 {
-  text-align: center;
-  color: green;
-  font-weight: bold;
-}
-
-#header {
-  text-align: center;
-  color: green;
-  font-weight: bold;
-}
-
-
+  
 .container {
-  color: green;
+  color: black;
+  font-weight: bold;
 }
 
-h4 {
+button.btn {
+  background-color: black;
   font-weight: bold;
-  font-style: italic;
 }
 
-#submit {
-  text-align: center;
-  font-weight: bold;
+button.btn:hover {
+  color: black;
+  background-color: white;
 }
