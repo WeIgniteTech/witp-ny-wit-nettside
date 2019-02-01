@@ -60,10 +60,12 @@
     
  <!-- Contact Form -->
 
+                      <!-- Contact Form -->
+
                        <div class = "container-fluid padding">
                        <div class = "row text-center padding">
                         <div class = "col-12">
-                            <h2>Contact Us</h2>
+                            <h1>Contact Us</h1>
                         </div>
                           </div>
                           </div>
@@ -71,12 +73,14 @@
 
                       <section id="contact">
                           <div class="container">
-                              <br>
- <hr>                         
+                      <br>
+                      <hr>                         
                           
 
                       <!--  <div class="col-lg-12 about-top-space text-center"> -->
-
+                      
+                      <form action="/action_page.php" onsubmit="return validateForm()" method="post">
+  
                       <label for="name" id="name">Name:</label>
                       <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
 
@@ -98,16 +102,14 @@
                       </div>
                       <br>
 
-                      <div class="rowTab">
-                      
-                      <form action="http://someserver/cgi-bin/formmail.pl" method="post">
-                        <div id="submit"><input type="submit" name="submit" value="Submit">
-                        </div>
-                      </form>       
-
-                      </section>
+                      <div class="">
+                        <button class="btn btn-info btn-lg" name="submit" value="Submit" >Submit
+                        
+                        </button>
+                        
+                      </form>
+                        
                       <br>
-                      <hr>
                           
                         
 <!-- Location Map plugin -->
