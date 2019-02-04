@@ -1,24 +1,21 @@
- body {
-     padding-top: 3vh;
+body {
     
  }
 .container{
     padding-bottom: 1vh;
 }
-.navbar{
-   background-color: rgba(45, 166, 255, 0.71);
-}
+
 .header-content{
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     background-color: #a59c9c;
     min-height: 20vh;
-    border: .5px solid black;
 }
 /*  Header; image carousel  */
 .page-header-img{
-    position: absolute;
+    position: absolutes;
     background-size: cover;
     z-index: -1;
+    max-height: 10vh;
 }
 .body-content{
     min-height: 60vh;
@@ -40,15 +37,6 @@
     width: 50%;
     max-width:50vw;  
     height: 30vh;
-}
-.navbar-brand{
-     font-family:'Major Mono Display';
-     font-size: 3vh;
-     padding: 0vh;
-}
-
-.nav-item{
-    /* Something here*/
 }
 
 
@@ -87,35 +75,23 @@ li a:hover {
 } 
 
 /* -- contact us -- */
-
-body {
-  
-  font-family: monospaced;
-  margin-top: 50px;
-  margin-bottom: 90px;
-  padding-left: 30px;
-  padding-right: 40px;
+.navbar a {
+  margin: 7px;
+  padding: 1vh;
+  font-size: 3vh;
+  font-family: san-seriff;
+  font-weight: bold;
 }
 
-.col12 h1 {
-  color: black;
+h1 {
+  text-align: center;
+  color: green;
   font-weight: bold;
- padding: 40px;
 }
   
 .container {
   color: black;
   font-weight: bold;
-}
-
-button.btn {
-  background-color: black;
-  font-weight: bold;
-}
-
-button.btn:hover {
-  color: black;
-  background-color: white;
 }
 
 #submit {
@@ -146,17 +122,7 @@ color: #517fa4;
 .fa-instagram:hover {
 color: #FF5733;
 }
- body {
-     padding-top: 3vh;
-    
- }
-.container{
-    padding: 1vh;
-}
-header .navbar{
-    background-color: rgba(203, 239, 250, 0.56);
-    padding: 1vvh;
-}
+
 .header-content{
     margin-bottom: 2vh;
     background-color: #a59c9c;
@@ -184,14 +150,10 @@ header .navbar{
     max-width:50vw;  
     height: 30vh;
 }
-.navbar-brand{
-     font-family:'Major Mono Display';
-     font-size: 3vh;
-     padding: 0vh;
-}
 
 .nav-item{
-    /* Something here*/
+    background-color: transparent;
+
 }
 
 
@@ -204,7 +166,6 @@ li a:hover {
     font-family: Pompiere;
     font-size: 3vh;
 }
-
 #testemonials h3{
     color: green;
     text-transform: uppercase;
@@ -326,10 +287,10 @@ color: #FF5733;
 
 
  /* Carousel */
- body, html
+html
  .carousel-inner{
      margin: 0;
-     height: 100%;
+     height: 30%;
      text-align: center;
      font-family: 'monospace', monospace;
      color: #999;
@@ -376,16 +337,11 @@ color: #FF5733;
 }
 .button-container button{
     float: right;
-
     margin-right:80px;
-
-
     cursor: pointer;
-
 }
 
 .modal-body body    {
-
     font-family: monospaced;
     margin-top: 50px;
     margin-bottom: 90px;
@@ -408,8 +364,6 @@ color: #FF5733;
     font-weight: bold;
 }
 
-
-
 .modal-body h4 {
     font-weight: bold;
     font-style: italic;
@@ -420,9 +374,7 @@ color: #FF5733;
     font-weight: bold;
 }
 .button-container{
-
     float: right;
-
 }
 
 .button-container h2{
