@@ -97,15 +97,25 @@ body {
   padding-right: 40px;
 }
 
-h1 {
-  text-align: center;
-  color: green;
+.col12 h1 {
+  color: black;
   font-weight: bold;
+ padding: 40px;
 }
   
 .container {
   color: black;
   font-weight: bold;
+}
+
+button.btn {
+  background-color: black;
+  font-weight: bold;
+}
+
+button.btn:hover {
+  color: black;
+  background-color: white;
 }
 
 #submit {
