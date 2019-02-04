@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
- <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,28 +26,22 @@
     font-family: 'Pompiere', cursive;         -->
     <link href="https://fonts.googleapis.com/css?family=Courgette|Major+Mono+Display|Pompiere" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
-            <a class="navbar-brand ml-3" href="index.html"><b style="font-size: 4vh">W</b>e<span style="color:rgba(0, 0, 139, 0.86); font-size: 3.8vh;"><b>I</b></span>gnite<span style="color:#1212e3; font-size:3.6vh;"><b>T</b></span>ech</a>
+        <nav class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand ml-3" href="index.html">
+                <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
             <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+            <button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse right" id="navbarMenu">
+            <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://witp--ny-wit-nettside.herokuapp.com/index.html">
-                            <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link aboutUs" href="about_us.html">About Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="dropdown-item" href="applynow.html">Apply Now</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link contactUs" href="contactform.html">Contact Us</a>
+                    <li class="nav-item"><a class="nav-link" href="about_us.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="why.html">Why</a></li>
+                    <li class="nav-item"><a class="nav-link" href="applynow.html">Apply Now</a></li>
+                    <li class="nav-item"><a class="nav-link contactUs" href="contactform.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +55,6 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-
                     <a href="applynow.html" target="_self"><img class="d-block w-100" src="images/index1.JPG" alt="First slide"></a>
                     <div class="carousel-caption">
                         <a href="applynow.html" target="_self">
@@ -94,7 +88,7 @@
     <button class="open-button" onclick="openForm()">Chat</button>
     <div class="chat-popup" id="myForm">
         <form action="/action_page.php" class="form-container">
-            <h1>Chat</h1>  <label for="msg"><b>Message</b></label>
+            <h1>Chat</h1> <label for="msg"><b>Message</b></label>
             <textarea placeholder="Type message.." name="msg" required></textarea>
             <button type="submit" class="btn">Send</button>
             <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -112,26 +106,26 @@
 
     <footer class="footer">
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <hgroup>
-                            <h1>
-                                Interested to be part of the We Ignite Tech Program?
-                            </h1>
-                        </hgroup>
-                        <div class="well">
-                            <form action="#">
-                                <div class="input-group">
-                                    <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Enter Your Email Address" required>
-                                    <button class="btn btn-info btn-lg" type="submit">Yes, I am Interested!</button>
-                                </div>
-                            </form>
-                        </div>
-                        <small class="promise"><em>We won't send spam.</em></small>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <hgroup>
+                        <h1>
+                            Interested to be part of the We Ignite Tech Program?
+                        </h1>
+                    </hgroup>
+                    <div class="well">
+                        <form action="#">
+                            <div class="input-group">
+                                <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Enter Your Email Address" required>
+                                <button class="btn btn-info btn-lg" type="submit">Yes, I am Interested!</button>
+                            </div>
+                        </form>
                     </div>
+                    <small class="promise"><em>We won't send spam.</em></small>
                 </div>
             </div>
+        </div>
         <div class="container text-center">
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
             <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
@@ -145,12 +139,12 @@
     </footer>
     <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
     <div class="script" content="take script out of div and place at the bottom after editing!">
-              <!-- Button Interest for WITP Program -->
+        <!-- Button Interest for WITP Program -->
 
-       <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-       
+
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
