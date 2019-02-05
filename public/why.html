@@ -28,24 +28,24 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <nav class="navbar navbar-inverse">
-        <div class="collapse navbar-collapse right" id="navbarMenu">
-            <ul class="navbar-nav mr-auto">
-            </ul>
-        </div>
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+    <header>
+        <nav class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
+            <a class="navbar-brand ml-3" href="index.html">
+                <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+            <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
+            <button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse right" id="navbarMenu">
+                <ul class="navbar-nav mr-auto navbar-right">
+                    <li><a href="about_us.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                    <li><a href="why.html"><span class="glyphicon glyphicon-question-sign"></span> Why</a></li>
+                    <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
+                    <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="about_us.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
-                <li><a href="why.html"><span class="glyphicon glyphicon-question-sign"></span> Why</a></li>
-                <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
-                <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
+        </nav>
     
      <!-- google translate -->
   
@@ -111,9 +111,7 @@ function googleTranslateElementInit() {
     <div class="container-fluid">
     <div id="map_canvas" class="map_canvas">
     </div>
-    </div>
-    <br>
-     <hr>                       
+    </div>                       
     
     <!-- Getting space between header and main-container -->
     
