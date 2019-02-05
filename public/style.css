@@ -74,6 +74,28 @@ li a:hover {
     } 
 } 
 
+/* navBar w glyphicons */
+
+span {
+  color: white;
+}
+
+span:hover {
+  color: red;
+}
+
+.navbar a {
+  margin: 7px;
+  padding: 23px;
+  font-size: 25px;
+  font-family: san-seriff;
+  font-weight: bold;
+}
+
+p {
+  font-size: 20px;
+}
+
 
 /* contact us */
 body {
