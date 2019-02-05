@@ -326,30 +326,30 @@ html
      vertical-align: middle;
  }
  /* Apply now */
-.applynow-headerimage  h2{
+.applynow-headerimage{
+    position: relative;
+    display: inline-block;
+}
+.centered p{
+    font-size: 6vh;
+    
 
-
-font-family: Effra, sans-serif;
-font-size: 62px;
-font-weight: 900;
-font-style: inherit;
-font-stretch: normal;
-line-height: 1.52;
-text-align: center;
-color: white;
-    background: #9e9e9ea1;
 }
 .centered{
     position: absolute;
-    top:60vh;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: #9e9e9ea1;
+    font-size: 10vh;
 }
 
 
 .applynow-headerimage img{
-    position: relative;
+
     width: 100%;
     max-height: 100vh;
 }
