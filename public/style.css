@@ -420,3 +420,11 @@ button.btn {
 .promise {
     color: #999;
 }
+
+/* language option */
+
+/* google translate */
+
+#google_translate_element {
+  float: right; 
+}
