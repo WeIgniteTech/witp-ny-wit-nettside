@@ -381,7 +381,7 @@ html
 
 }
 
-/* button interest for witp program */
+/* button interest for witp program */    
 
 section {
     padding: 100px 0;
@@ -390,24 +390,33 @@ section {
 
 .input-group {
     margin: 20px auto;
-    width: 100%;
+    width: 10%;
 }
 input.btn.btn-lg,
 input.btn.btn-lg:focus {
     outline: none;
-    width: 60%;
+    width: 40%;
     height: 60px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     background-color: #fff;
 }
 button.btn {
-    width: 40%;
+    width: 50%;
     height: 60px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     background-color: #111;
 }
+
+.input-group {
+  width: 100%; 
+}
+
+.container {
+  width: 85%;
+}
+
 .promise {
     color: #999;
 }
