@@ -1,6 +1,7 @@
 body {
     
  }
+
 .container{
     padding-bottom: 1vh;
 }
@@ -10,6 +11,7 @@ body {
     background-color: #a59c9c;
     min-height: 20vh;
 }
+
 /*  Header; image carousel  */
 .page-header-img{
     position: absolutes;
@@ -38,7 +40,6 @@ body {
     max-width:50vw;  
     height: 30vh;
 }
-
 
 li a:hover {
     color: #111;
@@ -70,22 +71,18 @@ li a:hover {
     }
     .section-4 .col-md-7 img{
         width: 350px;
-    }
-    
+    } 
 } 
 
-/* -- contact us -- */
-.navbar a {
-  margin: 7px;
-  padding: 1vh;
-  font-size: 3vh;
-  font-family: san-seriff;
-  font-weight: bold;
+
+/* contact us */
+body {
+  font-family: monospaced;
 }
 
-h1 {
-  text-align: center;
-  color: green;
+.col-12 h1 {
+  color: black;
+  padding: 30px;
   font-weight: bold;
 }
   
@@ -94,10 +91,16 @@ h1 {
   font-weight: bold;
 }
 
-#submit {
-  text-align: center;
-  color: black;
+button.btn {
+  background-color: black;
+  font-weight: bold;
 }
+
+button.btn:hover {
+  color: black;
+  background-color: white;
+}
+
 
 /* social media icons */
 .social a {
@@ -123,6 +126,7 @@ color: #517fa4;
 color: #FF5733;
 }
 
+/* hva er dette til? */
 .header-content{
     margin-bottom: 2vh;
     background-color: #a59c9c;
@@ -153,15 +157,14 @@ color: #FF5733;
 
 .nav-item{
     background-color: transparent;
-
 }
-
 
 li a:hover {
     color: #111;
 }
 
-/*Main area */
+
+/* Main area */
 #mission-message{
     font-family: Pompiere;
     font-size: 3vh;
@@ -188,38 +191,9 @@ li a:hover {
         width: 350px;
     }
     
-} */
-
-#submit {
-  text-align: center;
-  color: black;
 }
 
-
-/* social media icons */
-.social a {
-font-size: 5rem;
-padding: 4rem;
-}
-
-.fa-facebook {
-color: #3b5998;
-}
-
-.fa-github {
-color: #35465c;
-}
-
-.fa-instagram {
-color: #517fa4;
-}
-
-.fa-facebook:hover,
-.fa-github:hover,
-.fa-instagram:hover {
-color: #FF5733;
-}
-/*CHAT*/
+/* CHAT */
  * {box-sizing: border-box;}
         /* Button used to open the chat form - fixed at the bottom of the page */
         .open-button {
