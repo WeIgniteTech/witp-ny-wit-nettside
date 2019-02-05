@@ -14,10 +14,13 @@ body {
 
 /*  Header; image carousel  */
 .page-header-img{
-    position: absolutes;
+    position: absolute;
     background-size: cover;
     z-index: -1;
     max-height: 10vh;
+}
+.d-block{/*carousel height*/
+    max-height: 70vh;
 }
 .body-content{
     min-height: 60vh;
@@ -32,7 +35,7 @@ body {
     width: 50%;
     max-width: 50vw;
     height: 30vh;
-    border: .5px solid black;
+    border: 5px solid black;
 }
 
 .testimonial-Slider{
@@ -295,7 +298,7 @@ html
  h5 {
      text-transform: uppercase;
      letter-spacing: 1pt;
-     font-size: 50pt;
+     font-size: 2 vh;
      margin-bottom: 15px;
      color: white;
  }
@@ -303,8 +306,8 @@ html
  p5 {
      text-align: center;
      margin: 0;
-     /* text-transform: lowercase; */
-     font-size: 40pt;
+
+     font-size: 3 vh;
      font-weight: 900;
      width: 50%;
      display:none;
