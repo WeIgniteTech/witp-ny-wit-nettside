@@ -334,6 +334,8 @@ html
  }
  /* Apply now */
 .applynow-headerimage{
+    object-position: center 35%;
+    object-fit: cover;
     position: relative;
     display: inline-block;
 }
