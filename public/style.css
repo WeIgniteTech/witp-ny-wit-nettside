@@ -108,6 +108,14 @@ p {
 
 
 /* contact us */
+.container.contactform-container{
+    border: black 1px solid;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+}
 body {
   font-family: monospaced;
 }
