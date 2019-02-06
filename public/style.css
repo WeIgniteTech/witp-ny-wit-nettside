@@ -13,6 +13,10 @@ body {
 }
 
 /*  Header; image carousel  */
+#wit-carousel img{
+    object-position: center 35%;
+    object-fit: cover;
+}
 .page-header-img{
     position: absolute;
     background-size: cover;
