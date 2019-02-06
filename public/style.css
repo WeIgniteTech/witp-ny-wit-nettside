@@ -419,7 +419,10 @@ html
 }
 
 /* button interest for witp program */    
-
+form .input-group{
+    justify-content: center;
+    display: flex;
+}
 section {
     padding: 100px 0;
     text-align: center;
