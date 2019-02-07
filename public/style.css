@@ -51,6 +51,49 @@ body {
 li a:hover {
     color: #111;
 }
+/*index what we do */
+#portfolio.color-1 {
+    display: block;
+    object-fit: cover;
+}
+.text-center {
+    float: none;
+    margin: 0 auto;
+    padding: 2% 0 3% 0;
+}
+section.color-1 {
+    object-fit: cover;
+    color: #fff;
+    background: #fc5c5d;
+    padding: 5vh 15px 5vh 15px;
+
+}
+
+.col-md-8 .btn-white {
+    background-color: white;
+    color: black;
+
+    font-family: Effra, sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    text-align: center;
+    color: black;
+    border-radius: 24px;
+    height: 40px;
+}
+.section-bottom p {
+    font-family: freight-sans-pro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    color: #ffffff;
+    text-align: center;
+}
 
 /*Main area */
 #mission-message{

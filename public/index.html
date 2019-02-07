@@ -85,28 +85,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </header>
-    <!-- CHAT -->
-    <button class="open-button" onclick="openForm()">Chat</button>
-    <div class="chat-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-            <h1>Chat</h1> <label for="msg"><b>Message</b></label>
-            <textarea placeholder="Type message.." name="msg" required></textarea>
-            <button type="submit" class="btn">Send</button>
-            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-        </form>
-    </div>
-    <!--Get script in external js -->
-    <script>
-        function openForm() {
-        document.getElementById("myForm").style.display = "block";
-    }
-    function closeForm() {
-        document.getElementById("myForm").style.display = "none";
-    }
-   </script>
-
-    <footer class="footer">
+        <!-- interested section -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
@@ -127,6 +106,53 @@
                 </div>
             </div>
         </div>
+        <!--- what we do section -->
+        <!-- what we do --->
+        <section class="color-1" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 section-top text-center">
+                        <h3>What Is We Ignite Tech?</h3>
+                    </div>
+                    <div class="col-md-8 col-sm-6 col-xs-8 section-bottom text-center">
+                        <p>We Ignite Tech is a full stack developer program for newcomers in Norway. The aim is to contribute to raising the competence levels of newcomers with IT-background to ensure they become more relevant as employees for Norwegian businesses. Both through
+                            programming skills and soft skills.</p>
+                        <p>We aim to help businesses with their recruitment and inclusion. And we want to enable newcomers to build a relevant professional network and get closer to relevant job opportunities. Newcomers have experience, higher education, good ideas, initiatives
+                            and inspiration that are valuable for Norwegian businesses. There is a huge demand for developers and digital heads. Meanwhile, newcomers with valuable tech background are not given the opportunity to update their practical knowledge to meet the
+                            requirements of the market and be part of the global tech community. Our mission is to find solutions to bridge that gap: the We Ignite Tech program.</p>
+                        <br>
+                        <a class="btn btn-white" href="why.html">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- CHAT -->
+        <button class="open-button" onclick="openForm()">Chat</button>
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Chat</h1> <label for="msg"><b>Message</b></label>
+                <textarea placeholder="Type message.." name="msg" required></textarea>
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        <!--Get script in external js -->
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+            function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+            }
+        </script>
+
+    </header>
+
+
+    <footer class="footer">
+
+        </div>
+
         <div class="container text-center">
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
             <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
