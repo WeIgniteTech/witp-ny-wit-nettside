@@ -2,6 +2,30 @@ body {
     margin: 200px;
 }
 
+.navbar-toggler .navbar-toggler-icon{
+    border: 1px white solid;
+    border-radius: 2px;
+    min-height: 4vh;
+    min-width: 6vh;
+}
+
+.navbar a {
+  font-size: 24px;
+    padding: 1vw;
+  font-family: san-seriff;
+  font-weight: bold;
+}
+nav.navbar {
+    background-color: rgba(0, 0, 0, 0.94);
+     min-height: 9vh;
+    max-height: 9vh;
+}
+
+.navbar .navbar-brand{
+    font-size: 24px;
+      
+}
+
 .container{
     padding-bottom: 1vh;
 }
@@ -13,9 +37,17 @@ body {
 }
 
 /*  Header; image carousel  */
+#wit-carousel{
+    padding-top: 8.7vh;
+    border-top: solid 1px black;
+    border-bottom:  solid 1px black;
+    
+}
+
 #wit-carousel img{
     object-position: center 35%;
     object-fit: cover;
+    max-height: 50vh;
 }
 .page-header-img{
     position: absolute;
@@ -134,14 +166,7 @@ span:hover {
   color: red;
 }
 
-.navbar a {
-  font-size: 25px;
-  font-family: san-seriff;
-  font-weight: bold;
-}
-nav.navbar {
-    background-color: rgba(0, 0, 0, 0.72);
-}
+
 
 p {
   font-size: 2vh;
