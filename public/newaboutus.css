@@ -1,0 +1,23 @@
+body {
+    margin: 200px;
+    text-align-all: center ;
+}
+
+h2 {
+    font-weight: 300 ;
+    text-align: center !important;
+
+}
+h4 {
+    line-height: 1.4;
+    font-family: inherit;
+    color: inherit;
+    font-size: 15px;
+    text-align: center !important;
+    width: 80%;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+
