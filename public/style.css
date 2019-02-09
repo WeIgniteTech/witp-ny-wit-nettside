@@ -192,7 +192,7 @@ span {
 }
 
 span:hover {
-  color: red;
+  color: blue;
 }
 
 
@@ -572,20 +572,4 @@ button.btn {
 
 .promise {
     color: #999;
-}
-
-
-/* WIT Program Content */
-h1, h2, h4, h5, p {
-  color: darkgreen;
-  font-family: Arial;
-}
-
-.container h3 {
-  margin-top: 90px;
-  background-color: darkgreen;
-  padding: 20px 20px 20px 20px;
-  color: white;
-  border-radius: 20vh;
-  text-shadow: 20%;
 }
