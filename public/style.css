@@ -108,7 +108,6 @@ nav.navbar {
     max-width:50vw;  
     height: 30vh;
 }
-<--!
 li a:hover {
     color: #111;
 }
@@ -125,7 +124,7 @@ li a:hover {
 section.color-1 {
     object-fit: cover;
     color: #fff;
-    background: #fc5c5d;
+    background: #047364;
     padding: 5vh 15px 5vh 15px;
 
 }
