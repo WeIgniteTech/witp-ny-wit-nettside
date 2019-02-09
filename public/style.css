@@ -66,6 +66,7 @@ nav.navbar {
 }
 
 /*  Header; image carousel  */
+
 #wit-carousel{
     padding-top: 8.7vh;
     border-top: solid 1px black;
@@ -424,6 +425,7 @@ html
      display:none;
      color: white;
  }
+
 
  #table {
      display: table;
