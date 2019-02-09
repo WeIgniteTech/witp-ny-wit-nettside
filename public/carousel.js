@@ -22,3 +22,20 @@ $( document ).ready(function() {
         typeEffect($('p5'), speed);
     }, delay);
 });
+
+//carousel slider autoplay start and stop on mousehover and mouseleave
+var owl = $(".active");
+owl.owlCarousel({
+    loop:true,
+    smartSpeed:450,
+    responsiveClass: true,
+    responsiveRefreshRate : 10,
+    items:1,
+});
+
+$('.carousel-indicators li.carousel-indicators').on('mouseover',function(e){
+    owl.trigger('play.owl.autoplay');
+})
+$('.carousel-indicators li.product').on('mouseleave',function(e){
+    owl.trigger('stop.owl.autoplay');
+})
