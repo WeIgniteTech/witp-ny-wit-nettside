@@ -437,8 +437,9 @@ html
      vertical-align: middle;
  }
  /* Apply now */
-#applynow-body{
-    background-color: rgb(105, 176, 156);;
+.google-form{
+    margin-top: -20px;
+    background-color: #047364;;
 }
 .centered p{
     font-size: 6vh;
