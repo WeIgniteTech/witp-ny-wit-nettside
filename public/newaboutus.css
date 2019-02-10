@@ -1,10 +1,18 @@
 body {
     margin: 200px;
     text-align-all: center ;
+
 }
 
 h2 {
     font-weight: 300 ;
+    text-align: center !important;
+
+}
+
+
+h3 {
+    font-weight: 300;
     text-align: center !important;
 
 }
@@ -18,6 +26,89 @@ h4 {
     box-sizing: border-box;
     outline: none;
 
+}
+
+
+.navbar-toggler .navbar-toggler-icon{
+    border: 1px white solid;
+    border-radius: 2px;
+    min-height: 4vh;
+    min-width: 6vh;
+}
+
+.navbar a {
+    font-size: 24px;
+    padding: 1vw;
+    font-family: san-seriff;
+    font-weight: bold;
+}
+
+.navbar.navbar-inverse .navbar-brand {
+    color: #047364;
+}
+.navbar.navbar-inverse .navbar-brand:hover {
+    color: #047364;
+}
+.navbar-brand span{
+    color: #047364;
+}
+.navbar-brand span:hover{
+    color: #047364;
+}
+.glyphicon{
+    color: #047364;
+}
+.glyphicon:hover{
+    color: #047364;
+}
+nav.navbar {
+    background-color:white;
+    min-height: 9vh;
+    max-height: 9vh;
+    border-color: white;
+}
+.navbar.navbar-inverse .navbar-nav>li>a{
+    color: #047364;
+
+}
+.navbar.navbar-inverse .navbar-nav>li>a:hover{
+    color: #047364;
+
+}
+
+
+.navbar .navbar-brand{
+    font-size: 24px;
+
+}
+
+/* CHAT */
+* {box-sizing: border-box;}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+    background-color: black;
+    color: white;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+
+    z-index: 99;
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
 }
 
 

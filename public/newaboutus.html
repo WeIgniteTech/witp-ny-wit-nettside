@@ -29,34 +29,37 @@
 
 <body>
 <header>
-    <nav class="navbar navbar-inverse navbar-expand-md navbar-light fixed-top">
-        <a class="navbar-brand ml-3" href="index.html">
-            <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
-        <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
-        <button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse right" id="navbarMenu">
-            <ul class="navbar-nav mr-auto navbar-right">
-                <li><a href="aboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
-                <li><a href="WITP.html"><span class="glyphicon glyphicon-question-sign"></span> WIT Program</a></li>
-                <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
-                <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<!-- Text -->
+    <header class="fixed-top">
+        <nav class="navbar navbar-inverse navbar-expand-md navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand mr-auto" href="index.html">
+                    <span class="glyphicon glyphicon-fire"></span> WE IGNITE TECH</a>
+                <!--Todo: could make a cool animation with the acronym as it is only straight lines -->
+                <button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenue" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ml-auto" id="navbarMenu">
+                    <ul class="navbar-nav mr-auto navbar-right">
+                        <li><a href="newaboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                        <li><a href="WITP.html"><span class="glyphicon glyphicon-question-sign"></span> WIT Program</a></li>
+                        <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
+                        <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Text -->
 
        <div class="main">
        </div>
-<!-- we can chang this image and put video here
-<img src="/home/vagrant/Code/witp-ny-wit-nettside/images/IMG_4407.JPG" width="80%" height="50%"  />
--->
+    <br>
+     <br>
 <div class="container">
     <h3 class="text-center"><strong>What Is We Ignite Tech?</strong></h3>
-    <p class="text-justify">We Ignite Tech is a full stack developer program for newcomers in Norway. The aim is to contribute to raising the competence levels of newcomers with IT-background to ensure they become more relevant as employees for Norwegian businesses. Both through
+    <p class="text-justify">We Ignite Tech is a full stack developer program for newcomers in Norway.
+        The aim is to contribute to raising the competence levels of newcomers with IT-background to ensure they become more relevant as employees for Norwegian businesses. Both through
         programming skills and soft skills.</p><br>
     <h3 class="text-center"><strong>Why We Ignite Tech?</strong></h3>
     <p class="text-justify">We aim to help businesses with their recruitment and inclusion. And we want to enable newcomers to build a relevant professional network and get closer to relevant job opportunities. Newcomers have experience, higher education, good ideas, initiatives
@@ -81,7 +84,7 @@
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg" class="rounded-circle img-fluid">
                         </div>
                         <div class="card-body">
-                            <h4 class="font-weight-bold mb-4">JOHN DOE</h4>
+                            <h4 class="font-weight-bold mb-4">HAIMANOT</h4>
                             <hr>
                             <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Lorem ipsum dolor sit amet eos
                                 adipisci, consectetur adipisicing elit.</p>
@@ -96,7 +99,7 @@
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(20).jpg" class="rounded-circle img-fluid">
                         </div>
                         <div class="card-body">
-                            <h4 class="font-weight-bold mb-4">JOHN DOOE</h4>
+                            <h4 class="font-weight-bold mb-4">MALAZ</h4>
                             <hr>
                             <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Neque cupiditate assumenda in
                                 maiores repudiandae mollitia architecto.</p>
@@ -111,7 +114,7 @@
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(10).jpg" class="rounded-circle img-fluid">
                         </div>
                         <div class="card-body">
-                            <h4 class="font-weight-bold mb-4">JOHN DOEE</h4>
+                            <h4 class="font-weight-bold mb-4">BERKAY</h4>
                             <hr>
                             <p class="dark-grey-text mt-4"><i class="fas fa-quote-left pr-2"></i>Delectus impedit saepe officiis
                                 ab aliquam repellat rem unde ducimus.</p>
@@ -150,39 +153,64 @@
 
 <br>
 
-<!-- Getting space between header and main-container -->
+    <div class="chat-popup" id="myForm">
+        <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
+    </div>
+    <!-- CHAT
+    <button class="open-button" onclick="openForm()">Chat</button>
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1> <label for="msg"><b>Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+    </div>
+    Get script in external js -->
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
+</header>
+    <!-- Getting space between header and main-container -->
 
 </main>
-<footer class="panel-footer">
-    <div class="container text-center">
-        <h3>Social Media</h3>
-        <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
-        <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
-        <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
 
-        <div class="container-fluid text-center"><div>
-
-            <h5>All rights reserved &copy WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</h5>
+    <footer class="footer">
 
         </div>
-</footer>
 
-<!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
-<div class="script" content="take script out of div and place at the bottom after editing!">
-    <!-- Button Interest for WITP Program -->
+        <div class="container text-center">
+            <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
+            <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
+            <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>
 
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <div class="text-center text-muted">
+            All rights reserved &copy <a title="Grace, Osman, Jehad and Hiruth">WIT:IP The Website Development Team</a>
+        </div>
+    </footer>
+    <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
+    <div class="script" content="take script out of div and place at the bottom after editing!">
+        <!-- Button Interest for WITP Program -->
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <!--Carousel-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="carousel.js"></script>
-</div>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <!--Carousel-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="carousel.js"></script>
+    </div>
+
 </body>
 
 </html>
