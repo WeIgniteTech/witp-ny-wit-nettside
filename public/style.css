@@ -209,8 +209,6 @@ p {
     padding-bottom: 30px;
 }
 
-
-
 .col-12 h1 {
   color: black;
   padding: 30px;
@@ -230,8 +228,8 @@ button.btn {
 }
 
 button.btn:hover {
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #047364;
 }
 
 
