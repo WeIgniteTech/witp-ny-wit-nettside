@@ -20,39 +20,37 @@ body {
     color: #047364;
 }
 .navbar.navbar-inverse .navbar-brand:hover {
-    color: #ffffff;
+    color: #232b2b;
 }
 .navbar-brand span{
     color: #047364;
 }
 .navbar-brand span:hover{
-    color: #ffffff;
+    color: #232b2b;
 }
 .glyphicon{
     color: #047364;
 }
 .glyphicon:hover{
-    color: #ffffff;
+    color: #232b2b;
 }
 nav.navbar {
     background-color:white;
-     min-height: 9vh;
+    min-height: 9vh;
     max-height: 9vh;
     border-color: white;
 }
+
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
-
 }
+
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
-    color: #ffffff;
-
+    color: #232b2b;
 }
-
 
 .navbar .navbar-brand{
-    font-size: 24px;
-      
+    font-size: 24px;     
 }
 
 .container{
