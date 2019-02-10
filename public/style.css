@@ -202,7 +202,7 @@ p {
 
 /* contact us */
 .container.contactform-container{
-    border: black 1px solid;
+    /*border: black 1px solid;*/
     padding-right: 150px;
     padding-left: 150px;
     padding-top: 50px;
@@ -223,8 +223,10 @@ p {
 }
 
 button.btn {
-  background-color: black;
+  background-color: #047364;
   font-weight: bold;
+  border-radius-left: 0;
+  border-radius-right: 0;
 }
 
 button.btn:hover {
