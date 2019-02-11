@@ -199,15 +199,15 @@ p {
 
 
 /* contact us */
-.container.contactform-container{
-    /*border: black 1px solid;*/
+/*.container.contactform-container{
+    /*border: black 1px solid;
     padding-right: 150px;
     padding-left: 150px;
     padding-top: 50px;
     padding-bottom: 30px;
-}
+} */
 
-.col-12 h1 {
+.col-12 {
   color: black;
   padding: 30px;
   font-weight: bold;
@@ -218,10 +218,14 @@ p {
   font-weight: bold;
 }
 
+.container-fluid padding {
+    margin-top: 3vh;
+}    
+
 button.btn {
   background-color: #047364;
   font-weight: bold;
-  border-radius-left: 0;
+  border-radius-left: 1px;
   border-radius-right: 0;
 }
 
