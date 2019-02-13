@@ -19,5 +19,58 @@ h4 {
     outline: none;
 
 }
+/*oppdatere navbar */
+.navbar-toggler .navbar-toggler-icon{
+    border: 1px white solid;
+    border-radius: 2px;
+    min-height: 4vh;
+    min-width: 6vh;
+}
+
+.navbar a {
+    font-size: 24px;
+    padding: 1vw;
+    font-family: san-seriff;
+    font-weight: bold;
+}
+
+.navbar.navbar-inverse .navbar-brand {
+    color: #047364;
+}
+.navbar.navbar-inverse .navbar-brand:hover {
+    color: #047364;
+}
+.navbar-brand span{
+    color: #047364;
+}
+.navbar-brand span:hover{
+    color: #047364;
+}
+.glyphicon{
+    color: #047364;
+}
+.glyphicon:hover{
+    color: #047364;
+}
+nav.navbar {
+    background-color:white;
+    min-height: 9vh;
+    max-height: 9vh;
+    border-color: white;
+}
+.navbar.navbar-inverse .navbar-nav>li>a{
+    color: #047364;
+
+}
+.navbar.navbar-inverse .navbar-nav>li>a:hover{
+    color: #047364;
+
+}
+
+
+.navbar .navbar-brand{
+    font-size: 24px;
+
+}
 
 
