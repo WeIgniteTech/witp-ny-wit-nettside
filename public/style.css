@@ -571,9 +571,14 @@ button.btn {
     color: #999;
 }
 /*About us page*/
+/*Text*/
+
 /*instafeed*/
 .instafeed img{
     margin-bottom: 2vh;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
 }
 .instafeed img:hover{
     opacity: 0.7;
