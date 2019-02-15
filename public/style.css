@@ -570,3 +570,13 @@ button.btn {
 .promise {
     color: #999;
 }
+/*About us page*/
+/*instafeed*/
+.instafeed img{
+    margin-bottom: 2vh;
+}
+.instafeed img:hover{
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -webkit-opacity: 0.7;
+}
