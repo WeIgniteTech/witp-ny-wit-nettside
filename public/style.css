@@ -574,11 +574,16 @@ button.btn {
 /*Text*/
 
 /*instafeed*/
+.mentorCards{
+    min-height: 50vh;
+}
 .instafeed img{
+    padding: .5vw;
     margin-bottom: 2vh;
     border-radius: 50%;
     height: 100px;
     width: 100px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
 }
 .instafeed img:hover{
     opacity: 0.7;
