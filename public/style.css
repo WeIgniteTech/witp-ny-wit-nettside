@@ -574,6 +574,9 @@ button.btn {
 /*Text*/
 
 /*instafeed*/
+.mentorCards{
+    min-height: 50vh;
+}
 .instafeed img{
     padding: .5vw;
     margin-bottom: 2vh;
