@@ -11,15 +11,13 @@ nav .navbar-toggler{
     min-width: 6vh;
     color: #047364;
 }
-.navbar a {
-  font-size: 24px;
-padding: 1vw;
-  font-family: san-seriff;
-  font-weight: bold;
-}
 
 .navbar.navbar-inverse .navbar-brand {
     color: #047364;
+    font-size: 24px;
+    padding: 1vw;
+    font-family: san-seriff;
+    font-weight: bold;
 }
 .navbar.navbar-inverse .navbar-brand:hover {
     color: #232b2b;
@@ -28,7 +26,7 @@ padding: 1vw;
     color: #047364;
 }
 .navbar-brand span:hover{
-    color: #232b2b;
+    color: #380000;
 }
 .glyphicon{
     color: #047364;
@@ -42,10 +40,18 @@ nav.navbar {
     max-height: 9vh;
     border-color: white;
 }
+.navbar.navbar-inverse .navbar-nav>li{
+    background-color: white;
+    padding: 1vh;
+    
+    
+}
 
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
     font-size: 18px;
+    border-radius: 2px;
+    float: right;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
@@ -239,22 +245,6 @@ color: #FF5733;
     height: 30vh;
     border: .5px solid black;
 }
-
-.testimonial-Slider{
-    width: 50%;
-    max-width:50vw;  
-    height: 30vh;
-}
-
-.nav-item{
-    background-color: transparent;
-}
-
-li a:hover {
-    color: #111;
-}
-
-
 /* Main area */
 #mission-message{
     font-family: Pompiere;
@@ -270,18 +260,6 @@ li a:hover {
     font-family:'Courgette';
     color: white;
     font-size: 1.vh;
-}
-
-
-/*Making the page responsive 
-@media screen and (max-width: 768px){
-    .section-1 .card{
-        width: 14rem;
-    }
-    .section-4 .col-md-7 img{
-        width: 350px;
-    }
-    
 }
 
 /* CHAT */
