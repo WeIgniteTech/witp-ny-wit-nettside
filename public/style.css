@@ -2,16 +2,18 @@ body {
     margin: 200px;
 }
 
+nav .navbar-toggler{
+    border: 2px solid rgba(4, 115, 100, 0.79) !important; 
+}
 .navbar-toggler .navbar-toggler-icon{
-    border: 1px white solid;
     border-radius: 2px;
     min-height: 4vh;
     min-width: 6vh;
+    color: #047364;
 }
-
 .navbar a {
   font-size: 24px;
-    padding: 1vw;
+padding: 1vw;
   font-family: san-seriff;
   font-weight: bold;
 }
@@ -43,6 +45,7 @@ nav.navbar {
 
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
+    font-size: 18px;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
@@ -63,12 +66,7 @@ nav.navbar {
     min-height: 20vh;
 }
 
-/*  Header; image carousel  */
-
-/* #wit-carousel{
-    padding-top: 8.7vh;
-} */
-
+/* #wit-carousel*/
 #wit-carousel img{
     object-position: center 35%;
     object-fit: cover;
@@ -81,15 +79,14 @@ nav.navbar {
     max-height: 10vh;
 }
 .d-block{/*carousel height*/
-    max-height: 70vh;
+    max-height: 80vh;
+    filter: brightness(1.2);
 }
 .body-content{
     min-height: 60vh;
     border: 0.5px solid black;
 }
-.end-content{
 
-}
 .right-div{
     background-color: #d9bfbf;
     padding-top:15vh; 
