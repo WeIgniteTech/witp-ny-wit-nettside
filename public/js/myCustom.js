@@ -8,7 +8,7 @@ $(document).ready(function () {
         //        clientId: '',
         
 //   get:'tagged',
-//   tagName: 'wittest1',
+//  326 tagName: 'wittest1',
        limit: 60,
         resolution: 'standard_resolution', //could also wrap them in a link
         accessToken: '8890310250.1677ed0.826c5d443d244611aea46fa8bdb36806', //todo: instert token

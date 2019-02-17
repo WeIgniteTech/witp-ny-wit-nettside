@@ -169,41 +169,6 @@ section.color-1 {
     font-size: 1.vh;
 }
 
-
-/*Making the page responsive 
-@media screen and (max-width: 768px){
-    .section-1 .card{
-        width: 14rem;
-    }
-    .section-4 .col-md-7 img{
-        width: 350px;
-    } 
-} 
-
-/* navBar w glyphicons */
-
-/* span {
-  color: white;
-}
-
-span:hover {
-  color: blue;
-}
-
-p {
-  font-size: 2vh;
-} */
-
-
-/* contact us */
-/*.container.contactform-container{
-    /*border: black 1px solid;
-    padding-right: 150px;
-    padding-left: 150px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-} */
-
 .col-12 {
   color: black;
   padding: 30px;
@@ -222,8 +187,7 @@ p {
 button.btn {
   background-color: #047364;
   font-weight: bold;
-  border-radius-left: 1px;
-  border-radius-right: 0;
+
 }
 
 button.btn:hover {
@@ -234,8 +198,8 @@ button.btn:hover {
 
 /* social media icons */
 .social a {
-font-size: 5rem;
-padding: 4rem;
+font-size: 6rem;
+padding: 3rem;
 }
 
 .fa-facebook {
@@ -575,15 +539,20 @@ button.btn {
 
 /*instafeed*/
 .mentorCards{
-    min-height: 50vh;
+    min-height: ;
 }
+
+.gallery{
+    background-color: #047364;
+}
+
 .instafeed img{
-    padding: .5vw;
-    margin-bottom: 2vh;
-    border-radius: 50%;
+    padding: .1vw;
+    margin-bottom: vh;
+    border-radius: 15%;
     height: 100px;
     width: 100px;
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.49);
 }
 .instafeed img:hover{
     opacity: 0.7;
