@@ -39,16 +39,16 @@ nav .navbar-toggler{
 }
 nav.navbar {
     background-color:white;
-    min-height: 9vh;
-    max-height: 9vh;
     border-color: white;
+    margin-bottom: 0px !important;
 }
-.navbar.n#avbar-inverse .navbar-nav>li{
-    padding-right: 2vw;
+.navbar.navbar-inverse .navbar-nav>li{
+    padding: 0.1vh;
+    margin-bottom: none !important;
+    
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
-    padding-right: 1vw;
     color: #047364;
     font-size: 16px;
     font-weight: bold;
