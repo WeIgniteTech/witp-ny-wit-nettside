@@ -42,15 +42,15 @@ nav.navbar {
 }
 .navbar.navbar-inverse .navbar-nav>li{
     background-color: white;
-    padding: 1vh;
-    
-    
+    padding: .4vh;
+    padding-right: 2vw;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
-    font-size: 18px;
-    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
     float: right;
 }
 
@@ -74,7 +74,7 @@ nav.navbar {
 
 /* #wit-carousel*/
 #wit-carousel img{
-    object-position: center 35%;
+    object-position: center 50%;
     object-fit: cover;
     max-height: 50vh;
 }
