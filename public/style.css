@@ -2,6 +2,9 @@ body {
     margin: 200px;
 }
 
+#navbarMenu{
+    background-color: white;    
+}
 nav .navbar-toggler{
     border: 2px solid rgba(4, 115, 100, 0.79) !important; 
 }
@@ -40,13 +43,12 @@ nav.navbar {
     max-height: 9vh;
     border-color: white;
 }
-.navbar.navbar-inverse .navbar-nav>li{
-    background-color: white;
-    padding: .4vh;
+.navbar.n#avbar-inverse .navbar-nav>li{
     padding-right: 2vw;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
+    padding-right: 1vw;
     color: #047364;
     font-size: 16px;
     font-weight: bold;
@@ -182,10 +184,6 @@ section.color-1 {
   color: black;
   font-weight: bold;
 }
-
-.container-fluid padding {
-    margin-top: 3vh;
-}    
 
 button.btn {
   background-color: #047364;
