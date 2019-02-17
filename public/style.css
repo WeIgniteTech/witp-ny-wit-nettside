@@ -542,16 +542,17 @@ button.btn {
     min-height: ;
 }
 
-.gallery{
-    background-color: #047364;
+.jumbotron {
+    background-color: #047364 !important; 
 }
 
 .instafeed img{
-    padding: .1vw;
+    height: 50px;
+    padding: .15vw;
     margin-bottom: vh;
     border-radius: 15%;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 1px solid rgba(255, 255, 255, 0.49);
 }
 .instafeed img:hover{
