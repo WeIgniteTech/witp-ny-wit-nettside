@@ -2,22 +2,25 @@ body {
     margin: 200px;
 }
 
+#navbarMenu{
+    background-color: white;    
+}
+nav .navbar-toggler{
+    border: 2px solid rgba(4, 115, 100, 0.79) !important; 
+}
 .navbar-toggler .navbar-toggler-icon{
-    border: 1px white solid;
     border-radius: 2px;
     min-height: 4vh;
     min-width: 6vh;
-}
-
-.navbar a {
-  font-size: 24px;
-    padding: 1vw;
-  font-family: san-seriff;
-  font-weight: bold;
+    color: #047364;
 }
 
 .navbar.navbar-inverse .navbar-brand {
     color: #047364;
+    font-size: 24px;
+    padding: 1vw;
+    font-family: san-seriff;
+    font-weight: bold;
 }
 .navbar.navbar-inverse .navbar-brand:hover {
     color: #232b2b;
@@ -26,7 +29,7 @@ body {
     color: #047364;
 }
 .navbar-brand span:hover{
-    color: #232b2b;
+    color: #380000;
 }
 .glyphicon{
     color: #047364;
@@ -36,13 +39,21 @@ body {
 }
 nav.navbar {
     background-color:white;
-    min-height: 9vh;
-    max-height: 9vh;
     border-color: white;
+    margin-bottom: 0px !important;
+}
+.navbar.navbar-inverse .navbar-nav>li{
+    padding: 0.1vh;
+    margin-bottom: none !important;
+    
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    float: right;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
@@ -63,14 +74,9 @@ nav.navbar {
     min-height: 20vh;
 }
 
-/*  Header; image carousel  */
-
-/* #wit-carousel{
-    padding-top: 8.7vh;
-} */
-
+/* #wit-carousel*/
 #wit-carousel img{
-    object-position: center 35%;
+    object-position: center 50%;
     object-fit: cover;
     max-height: 50vh;
 }
@@ -81,15 +87,14 @@ nav.navbar {
     max-height: 10vh;
 }
 .d-block{/*carousel height*/
-    max-height: 70vh;
+    max-height: 80vh;
+    filter: brightness(1.2);
 }
 .body-content{
     min-height: 60vh;
     border: 0.5px solid black;
 }
-.end-content{
 
-}
 .right-div{
     background-color: #d9bfbf;
     padding-top:15vh; 
@@ -180,10 +185,6 @@ section.color-1 {
   font-weight: bold;
 }
 
-.container-fluid padding {
-    margin-top: 3vh;
-}    
-
 button.btn {
   background-color: #047364;
   font-weight: bold;
@@ -242,22 +243,6 @@ color: #FF5733;
     height: 30vh;
     border: .5px solid black;
 }
-
-.testimonial-Slider{
-    width: 50%;
-    max-width:50vw;  
-    height: 30vh;
-}
-
-.nav-item{
-    background-color: transparent;
-}
-
-li a:hover {
-    color: #111;
-}
-
-
 /* Main area */
 #mission-message{
     font-family: Pompiere;
@@ -273,18 +258,6 @@ li a:hover {
     font-family:'Courgette';
     color: white;
     font-size: 1.vh;
-}
-
-
-/*Making the page responsive 
-@media screen and (max-width: 768px){
-    .section-1 .card{
-        width: 14rem;
-    }
-    .section-4 .col-md-7 img{
-        width: 350px;
-    }
-    
 }
 
 /* CHAT */
