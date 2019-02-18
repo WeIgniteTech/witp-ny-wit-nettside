@@ -43,7 +43,7 @@ nav.navbar {
     margin-bottom: 0px !important;
 }
 .navbar.navbar-inverse .navbar-nav>li{
-    padding: 0.1vh;
+    padding: 1vh;
     margin-bottom: none !important;
     
 }
