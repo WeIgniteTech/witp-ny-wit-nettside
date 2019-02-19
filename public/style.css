@@ -528,8 +528,6 @@ button.btn {
 /*instafeed*/
 .mentorCards{
     min-height: 56vh;
-    width: 92.5vw;
-    overflow: visible;
 }
 
 .jumbotron {

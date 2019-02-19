@@ -1,5 +1,4 @@
 body {
-	margin-top: 60px;
 	font-size: 14px;
 	font-family: "Helvetica Nueue",Arial,Verdana,sans-serif;
 	background-color: #E5E9ED;
@@ -16,8 +15,7 @@ body {
      -o-perspective: 800px;
         perspective: 800px;
     display: inline-block;
-    margin-bottom: 50vh;
-    
+    margin-bottom: 49vh;
 }
 /* flip the pane when hovered */
 .card-container:not(.manual-flip):hover .card,
@@ -81,18 +79,18 @@ body {
     background: none repeat scroll 0 0 #FFFFFF;
     border-radius: 4px;
     color: #444444;
-    width: 100%;
-    height: 100%;
+    max-height: 100vh;
 }
 
 .card-container, .front, .back {
-	width: 99%;
-	max-height: 50vh;
+	width: 100%;
+    min-height: 10px;
+	max-height: 40vh;
     padding: .2vh;
 }
 .card .cover{
-    min-height: 60px;
-    max-height: 100px;
+    min-height: 10vh;
+    max-height: 11vh;
     overflow: hidden;
     border-radius: 4px 4px 0 0;
 }
@@ -103,7 +101,7 @@ body {
     border-radius: 50%;
     display: block;
     height: 110px;
-    margin: -65px auto 0;
+    margin: -70px auto 0;
     overflow: hidden;
     width: 110px;
 }
@@ -116,36 +114,35 @@ body {
 .card .content{
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
-    padding: 5px 10px 10px;
+    padding: 1px;
 }
 .card .content .main {
-    min-height: 20vh;
+    min-height: 10vh;
 }
 .card .back .content .main {
-    min-height: 24vh;
+    min-height: 18vh;
 }
 .card .name {
-    font-size: 20px;
-    line-height: 28px;
-    margin: 10px 0 0;
+    font-size: 18px;
+    line-height: 1px;
+    margin: 8px;
     text-align: center;
     text-transform: capitalize;
 }
 .card p{
-    margin: 5px 0;
-    font-weight: 300;
-    line-height: 20px;
+    margin: 5px;
+    line-height: 14px;
 }
 .card .profession{
     color: #999999;
     text-align: center;
-    margin-bottom: 1vh;
+    margin: 2vh;
 }
 .card .footer {
     border-top: 1px solid #EEEEEE;
     color: #999999;
-    margin: 1vh 0 0;
-    padding: 1vh 0 0;
+    margin: .1vh 0 0;
+    padding: .1vh 0 0;
     text-align: center;
 }
 .card .footer .social-links{
@@ -153,14 +150,14 @@ body {
     padding: 10px;
 }
 .card .footer .social-links a{
-    margin: 0 8px;
+    margin: 18px;
 }
 .card .footer .btn-simple{
     margin-bottom: -5px;
 }
 .card .header {
     padding: 15px 20px;
-    height: 90px;
+    height: 40px;
 }
 .card .motto{
     border-bottom: 1px solid #EEEEEE;
