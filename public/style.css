@@ -516,7 +516,7 @@ button.btn {
 }
 
 .container {
-  width: 85%;
+  width: 90%;
 }
 
 .promise {
@@ -527,7 +527,9 @@ button.btn {
 
 /*instafeed*/
 .mentorCards{
-    min-height: ;
+    min-height: 56vh;
+    width: 92.5vw;
+    overflow: visible;
 }
 
 .jumbotron {
