@@ -125,7 +125,7 @@ section.color-1 {
     text-align: center;
 }
 .information h2{
-    margin-block-end: 1em;
+    margin: 1em;
     color:black;
     font-size: 4rem;
     font-style:initial;
@@ -144,6 +144,28 @@ section.color-1 {
     margin-top: 104px;
     text-align: center;
 }
+
+/* icons index side WITP*/
+.fa-stack-overflow{
+    font-size: 5vh;
+}
+.fa-bullseye{
+font-size: 5vh;
+}
+.fa-users{
+    font-size: 5vh;
+}
+.fa-people-carry{
+    font-size: 5vh;
+}
+.fa-folder-plus{
+    font-size: 5vh;
+}
+.fa-chalkboard-teacher{
+    font-size: 5vh;
+    
+}
+
 /*Main area */
 #mission-message{
     font-family: Pompiere;
