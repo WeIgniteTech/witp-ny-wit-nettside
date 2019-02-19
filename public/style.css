@@ -431,6 +431,10 @@ input.applyinterest.btn.btn-lg{
 .applyinterest.well h4{
     color: white;
 }
+.applyfooter{
+    background-color: white;
+    display: block;
+}
 
 
 /* button interest for witp program */  
