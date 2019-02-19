@@ -15,7 +15,7 @@ body {
      -o-perspective: 800px;
         perspective: 800px;
     display: inline-block;
-    margin-bottom: 49vh;
+    margin-bottom: 34vh;
 }
 /* flip the pane when hovered */
 .card-container:not(.manual-flip):hover .card,
@@ -120,7 +120,7 @@ body {
     min-height: 10vh;
 }
 .card .back .content .main {
-    min-height: 18vh;
+    min-height: 14vh;
 }
 .card .name {
     font-size: 18px;
@@ -130,7 +130,7 @@ body {
     text-transform: capitalize;
 }
 .card p{
-    margin: 5px;
+    margin: 2px;
     line-height: 14px;
 }
 .card .profession{
@@ -156,8 +156,8 @@ body {
     margin-bottom: -5px;
 }
 .card .header {
-    padding: 15px 20px;
-    height: 40px;
+    padding: 2px;
+    height: 16px;
 }
 .card .motto{
     border-bottom: 1px solid #EEEEEE;
