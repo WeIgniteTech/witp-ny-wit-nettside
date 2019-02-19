@@ -424,6 +424,11 @@ input.applyinterest.btn.btn-lg{
 }
 .applyinterest.well{
     background-color: transparent;
+    text-align: center;
+
+}
+.applyinterest.well h4{
+    color: white;
 }
 
 
