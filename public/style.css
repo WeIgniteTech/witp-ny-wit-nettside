@@ -527,10 +527,10 @@ button.btn {
 
 /*instafeed*/
 .mentorCards{
-    min-height: 56vh;
+    max-height: 30vh;
 }
 
-.jumbotron {
+.jumbotron-green {
     background-color: #047364 !important; 
 }
 .instafeed{
@@ -568,9 +568,11 @@ box-shadow: 1px white;
   font-size: 50px;
   font-family: "Times New Roman, serif";
 }
-.nav {
-  padding-left: 20px;
-  padding-top: 0px;
+nav {
+    padding-left: 20px;
+    padding-top: 0px;
+    border-bottom: 2px solid #047364;
+    
 }
 .nav ul {
   list-style-type: none;
