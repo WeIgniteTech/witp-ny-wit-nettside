@@ -38,7 +38,7 @@
             </button>
             <div class="collapse navbar-collapse right" id="navbarMenu">
                 <ul class="navbar-nav mr-auto navbar-right">
-                    <li><a href="newaboutus.html"><span class="glyphicon glyphicon-user"></span></span> About Us</a></li>
+                    <li><a href="newaboutus.html"><span class="glyphicon glyphicon-user"></span>About Us</a></li>
                     <li><a href="WITP.html"><span class="glyphicon glyphicon-list-alt"></span> WIT Program</a></li>
                     <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
                     <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
@@ -51,28 +51,17 @@
             <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
         </div>
         <script>
-            function openForm() {
-                document.getElementById("myForm").style.display = "block";
-            }
-            function closeForm() {
-                document.getElementById("myForm").style.display = "none";
-            }
+    
         </script>
     </header>
     <!-- contact us photo -->
-    <div class="container-fluid no-padding">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <img src="contactus.jpg" alt="" class="img-responsive"></img>
+                <img src="contactus.jpg" alt="" class="img-responsive"/>
             </div>
         </div>
     </div>
-    <style>
-        .no-padding {
-        padding-left: 0;
-        padding-right: 0;
-        }
-    </style>
     <div class="row">
         <!-- This row class paired with the col class below from Bootstrap makes it is easy to extend the image across the entire display, with no white space, as a background image.-->
         <div class="hero-img col-sm-12">
@@ -87,58 +76,51 @@
                 <h4>We would love to hear from you!</h4>
                 <medium>Our friendly We Ignite Tech team is eager to help you.</medium><br>
             </div>
-            <div class="container contactform-container">
-                <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post" -->
-                <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
-                    <!-- this method will work that message info will be sent directly to an email provided -->
-                    <div class="text-left">
-                        <label for="name" id="name">Name:</label>
-                        <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
-                        <br>
-                        <label for="email" id="email">Email Address:</label>
-                        <input autofocus type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
-                        <br>
-                        <label for="message" id="message">Message:</label>
-                        <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
-                        <br>
-                    <div>
-                   </div>    
-                  </div>
-                        <br>
-                        <div class="text-center">
-                        <input type="submit" class="btn btn-info btn-send" value="Send Message">
-                    </div>
-                </form>
-            </div>
-        </section>
-    </div>
-
-    <!-- Location Map plugin -->
-    <div class="jumbotron align-items-center">
-        <div class="container">
-           <div class="row">
-            <div class="text-center align-items-center mapouter">
-               <center>
-                <div class="gmap_canvas"><iframe width="333" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                    </iframe>
-                </div>
-               </center>
+<div class="container contactform-container">
+    <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post" -->
+    <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+        <!-- this method will work that message info will be sent directly to an email provided -->
+        <div class="text-left">
+           
+            <i class="glyphicon glyphicon-user"></i>
+            <label for="name" id="name"> Name :</label>
+            <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
+            <br>
+            <i class="glyphicon glyphicon-envelope"></i>
+            <label for="email" id="email"> Email Address :</label>
+            <input autofocus type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+            <br>
+            <i class="glyphicon glyphicon-pencil"></i>
+            <label for="message" id="message"> Message :</label>
+            <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
+            <br>
+            <div>
             </div>
         </div>
-
-<!-- Do we need this container-fluid div?
-        <div class="container-fluid">
-            <div id="map_canvas" class="map_canvas">
+        <br>
+        <div class="text-center">
+            <input type="submit" class="btn btn-info btn-send" value="Send Message">
+        </div>
+    </form>
+</div>
+</section>
+</div>
+<!-- Location Map plugin -->
+<div class="jumbotron align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 align-items-center mapouter">
+                <center>
+                    <div class="gmap_canvas"><iframe width="333" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                        </iframe>
+                    </div>
+                </center>
             </div>
-        </div> -->
-        <div class="col-6">
-            
         </div>
     </div>
 </div>
-    
-    <!--footer here-->
-    <footer>
+<!--footer here-->
+<footer>
         <div class="container text-center">
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
             <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
@@ -146,38 +128,7 @@
         </div>
 
         <div class="footer">All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</div>
-
-        <style>
-            .footer {
-                right: 0;
-                bottom: 0;
-                left: 0;
-                padding: 1.5rem;
-                background-color: white;
-                text-align: center;
-                color: #047364;
-                font-family: Arial;
-            }
-            .footer:hover {
-                color: black;
-                text-shadow: 0 0 15px silver;
-                transition: all 0.5s ease;
-            }
-        </style>
-
     </footer>
-    
-    <!-- footer
-    <footer>
-        <div class="container text-center align-items-center">
-            <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
-            <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
-            <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
-        </div>
-
-        <div class="footer">All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</div>
-    </footer> -->
-
     <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
     <div class="script" content="take script out of div and place at the bottom after editing!">
         <!-- Button Interest for WITP Program -->
