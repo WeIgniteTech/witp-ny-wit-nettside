@@ -7,6 +7,8 @@ body {
 }
 nav .navbar-toggler{
     border: 2px solid rgba(4, 115, 100, 0.79) !important; 
+    margin: 0 auto; 
+
 }
 .navbar-toggler .navbar-toggler-icon{
     border-radius: 2px;
@@ -125,7 +127,7 @@ section.color-1 {
     text-align: center;
 }
 .information h2{
-    margin-block-end: 1em;
+    margin: 1em;
     color:black;
     font-size: 4rem;
     font-style:initial;
@@ -144,6 +146,28 @@ section.color-1 {
     margin-top: 104px;
     text-align: center;
 }
+
+/* icons index side WITP*/
+.fa-stack-overflow{
+    font-size: 5vh;
+}
+.fa-bullseye{
+font-size: 5vh;
+}
+.fa-users{
+    font-size: 5vh;
+}
+.fa-people-carry{
+    font-size: 5vh;
+}
+.fa-folder-plus{
+    font-size: 5vh;
+}
+.fa-chalkboard-teacher{
+    font-size: 5vh;
+    
+}
+
 /*Main area */
 #mission-message{
     font-family: Pompiere;
@@ -568,37 +592,38 @@ button.btn {
   max-width: 100%;
   height: 200px;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 /* Location map plugin */
- .mapouter {
-                        text-align: right;
-                        height: 333px;
-                        width: 333px;
-                    }
-                
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 333px;
-                        width: 333px;
-                    }
+.mapouter {
+    text-align: right;
+    height: 333px;
+    width: 333px;
+    padding: 0px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    height: 333px;
+    width: 333px;
+    display: block;
+}
 
 /* Footer */
 .footer {
-                right: 0;
-                bottom: 0;
-                left: 0;
-                padding: 1.5rem;
-                background-color: white;
-                text-align: center;
-                color: #047364;
-                font-family: Arial;
-            }
-            .footer:hover {
-                color: black;
-                text-shadow: 0 0 15px silver;
-                transition: all 0.5s ease;
-            }
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem;
+    background-color: white;
+    text-align: center;
+    color: #047364;
+    font-family: Arial;
+}
+
+.footer:hover {
+    color: black;
+    text-shadow: 0 0 15px silver;
+    transition: all 0.5s ease;
+}
