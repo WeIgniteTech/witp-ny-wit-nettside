@@ -592,37 +592,38 @@ button.btn {
   max-width: 100%;
   height: 200px;
   background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 /* Location map plugin */
- .mapouter {
-                        text-align: right;
-                        height: 333px;
-                        width: 333px;
-                    }
-                
-                    .gmap_canvas {
-                        overflow: hidden;
-                        background: none !important;
-                        height: 333px;
-                        width: 333px;
-                    }
+.mapouter {
+    text-align: right;
+    height: 333px;
+    width: 333px;
+    padding: 0px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    height: 333px;
+    width: 333px;
+    display: block;
+}
 
 /* Footer */
 .footer {
-                right: 0;
-                bottom: 0;
-                left: 0;
-                padding: 1.5rem;
-                background-color: white;
-                text-align: center;
-                color: #047364;
-                font-family: Arial;
-            }
-            .footer:hover {
-                color: black;
-                text-shadow: 0 0 15px silver;
-                transition: all 0.5s ease;
-            }
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.5rem;
+    background-color: white;
+    text-align: center;
+    color: #047364;
+    font-family: Arial;
+}
+
+.footer:hover {
+    color: black;
+    text-shadow: 0 0 15px silver;
+    transition: all 0.5s ease;
+}
