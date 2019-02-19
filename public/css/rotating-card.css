@@ -15,7 +15,9 @@ body {
    -moz-perspective: 800px;
      -o-perspective: 800px;
         perspective: 800px;
-             margin: 25px;
+    display: inline-block;
+    margin-bottom: 50vh;
+    
 }
 /* flip the pane when hovered */
 .card-container:not(.manual-flip):hover .card,
@@ -44,7 +46,7 @@ body {
    -moz-transform-style: preserve-3d;
      -o-transform-style: preserve-3d;
         transform-style: preserve-3d;
-	position: absolute;
+	position: relative;
 }
 
 /* hide back of pane during swap */
@@ -84,7 +86,7 @@ body {
 }
 
 .card-container, .front, .back {
-	width: 100%;
+	width: 99%;
 	max-height: 50vh;
     padding: .2vh;
 }
