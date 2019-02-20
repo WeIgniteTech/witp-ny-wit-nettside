@@ -1,0 +1,28 @@
+
+.jumbotron {
+
+    color: white;
+    background-image: url("https://scontent.fosl1-1.fna.fbcdn.net/v/t1.0-9/40061642_262546797704447_3750654421151776768_o.png?_nc_cat=101&_nc_ht=scontent.fosl1-1.fna&oh=756545c60d5fc8a450d8dcb78c4a6156&oe=5CF81FAF");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+}
+
+
+ .footer {
+
+     right: 0;
+     bottom: 0;
+     left: 0;
+     padding: 1.5rem;
+     background-color: white;
+     text-align: center;
+     color: #047364;
+     font-family: Arial;
+ }
+.footer:hover {
+    color: black;
+    text-shadow: 0 0 15px silver;
+    transition: all 0.5s ease;
+}

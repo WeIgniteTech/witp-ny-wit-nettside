@@ -20,39 +20,37 @@ body {
     color: #047364;
 }
 .navbar.navbar-inverse .navbar-brand:hover {
-    color: #047364;
+    color: #232b2b;
 }
 .navbar-brand span{
     color: #047364;
 }
 .navbar-brand span:hover{
-    color: #047364;
+    color: #232b2b;
 }
 .glyphicon{
     color: #047364;
 }
 .glyphicon:hover{
-    color: #047364;
+    color: #232b2b;
 }
 nav.navbar {
     background-color:white;
-     min-height: 9vh;
+    min-height: 9vh;
     max-height: 9vh;
     border-color: white;
 }
+
 .navbar.navbar-inverse .navbar-nav>li>a{
     color: #047364;
-
 }
+
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
-    color: #047364;
-
+    color: #232b2b;
 }
-
 
 .navbar .navbar-brand{
-    font-size: 24px;
-      
+    font-size: 24px;     
 }
 
 .container{
@@ -66,12 +64,10 @@ nav.navbar {
 }
 
 /*  Header; image carousel  */
-#wit-carousel{
+
+/* #wit-carousel{
     padding-top: 8.7vh;
-    border-top: solid 1px black;
-    border-bottom:  solid 1px black;
-    
-}
+} */
 
 #wit-carousel img{
     object-position: center 35%;
@@ -186,33 +182,29 @@ section.color-1 {
 
 /* navBar w glyphicons */
 
-span {
+/* span {
   color: white;
 }
 
 span:hover {
-  color: red;
+  color: blue;
 }
-
-
 
 p {
   font-size: 2vh;
-}
+} */
 
 
 /* contact us */
-.container.contactform-container{
-    border: black 1px solid;
+/*.container.contactform-container{
+    /*border: black 1px solid;
     padding-right: 150px;
     padding-left: 150px;
     padding-top: 50px;
     padding-bottom: 30px;
-}
+} */
 
-
-
-.col-12 h1 {
+.col-12 {
   color: black;
   padding: 30px;
   font-weight: bold;
@@ -223,14 +215,20 @@ p {
   font-weight: bold;
 }
 
+.container-fluid padding {
+    margin-top: 3vh;
+}    
+
 button.btn {
-  background-color: black;
+  background-color: #047364;
   font-weight: bold;
+  border-radius-left: 1px;
+  border-radius-right: 0;
 }
 
 button.btn:hover {
-  color: black;
-  background-color: white;
+  color: #ffffff;
+  background-color: #047364;
 }
 
 
@@ -425,6 +423,7 @@ html
      color: white;
  }
 
+
  #table {
      display: table;
      width: 100%;
@@ -571,11 +570,23 @@ button.btn {
 .promise {
     color: #999;
 }
+/*About us page*/
+/*Text*/
 
-/* language option */
-
-/* google translate */
-
-#google_translate_element {
-  float: right; 
+/*instafeed*/
+.mentorCards{
+    min-height: 50vh;
+}
+.instafeed img{
+    padding: .5vw;
+    margin-bottom: 2vh;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+}
+.instafeed img:hover{
+    opacity: 0.7;
+    -moz-opacity: 0.7;
+    -webkit-opacity: 0.7;
 }

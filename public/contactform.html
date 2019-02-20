@@ -38,7 +38,7 @@
             </button>
             <div class="collapse navbar-collapse right" id="navbarMenu">
                 <ul class="navbar-nav mr-auto navbar-right">
-                    <li><a href="aboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
+                    <li><a href="newaboutus.html"><span class="glyphicon glyphicon-user"></span> About Us</a></li>
                     <li><a href="WITP.html"><span class="glyphicon glyphicon-question-sign"></span> WIT Program</a></li>
                     <li><a href="applynow.html"><span class="glyphicon glyphicon-check"></span> Apply Now</a></li>
                     <li><a href="contactform.html"><span class="glyphicon glyphicon-envelope"></span> Contact Us</a>
@@ -46,89 +46,172 @@
                 </ul>
             </div>
         </nav>
+        <!-- small  chat codes -->
+        <div class="chat-popup" id="myForm">
+            <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
+        </div>
+        <script>
+            function openForm() {
+                document.getElementById("myForm").style.display = "block";
+            }
+            function closeForm() {
+                document.getElementById("myForm").style.display = "none";
+            }
+        </script>
     </header>
+    <!-- contact us photo
+    <div class="container-fluid no-padding">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="contactus.jpg" alt="placeholder 960" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        .no-padding {
+        padding-left: 0;
+        padding-right: 0;
+        }
+    </style> -->
+    
+    </div>
+  
+  <div class="row">
+    <!-- This row class paired with the col class below from Bootstrap makes it is easy to extend the image across the entire display, with no white space, as a background image.-->
+    <div class="hero-img col-sm-12">
+    </div>
+  </div>
+</div>
+<style>
+    .top {
+  padding: 5px 20px;
+}
 
- 
- <!-- Contact Form -->
+.logo {
+  font-size: 50px;
+  font-family: "Times New Roman, serif";
+}
 
-                       <div class = "container-fluid padding">
-                        <div class = "row text-center padding">
-                            <div class = "col-12">
-                                <h2>Contact Us</h2>
-                                <p>Feel free to send us a message</p>
-                            </div>
-                         </div>
-                        </div>
-                    
+.nav {
+  padding-left: 20px;
+  padding-top: 0px;
+}
 
-                          <section id="contact">
-                             <div class="container contactform-container" >
+.nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
 
-                                <form action="/action_page.php" onsubmit="return validateForm()" method="post">
-                                  <div class="text-center">
+.nav li {
+  display: inline-block;
+  margin: 30px 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.8em;
+}
+
+.nav li a {
+  color: #000;
+}
+
+.hero-img {
+  background-image: url("https://media.giphy.com/media/25FYP033b6ztXoYliw/giphy.gif");
+  max-width: 100%;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+    
+     <!--   <div class ="container-fluid padding">
+            <div class = "row text-center padding">
+                <div class = "col-12"></div>
+            </div>
+        </div> -->
+    <!-- mentors -->     
+          <!-- Contact Form -->                                        
+        <section id="contact">
+            <h2><strong>Get In Touch With Us</strong></h2>
+                <h4>We would love to hear from you!</h4>
+                    <medium>Our friendly We Ignite Tech team is eager to help you.</medium><br><br>
+                        <div class="container contactform-container">
+                            <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post" -->
+                                <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65"> <!-- this method will work that message info will be sent directly to an email provided -->
+                                <div class="text-center">
                                     <label for="name" id="name">Name:</label>
                                         <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
                                         <br>
-                                    <label for="number" id="number">Telephone Number:</label>
-                                        <input autofocus type="text" id="number-label" name="number" class="form-control" placeholder="Enter your telephone number" required>
-                                        <br>
                                     <label for="email" id="email">Email Address:</label>
-                                        <input autofocus type="text" id="email-label" name="email" class="form-control" placeholder="Enter your email address" required>
+                                        <input autofocus type="email" id="email-label" name="email" class="form-control" placeholder="Enter your email address" required>
                                 </div>
                                         <br>
                                 <div>
-                                    <label for="textarea">Message:</label>
-                                        <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                                    <label for="message" id="message">Message:</label>
+                                        <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
                                 </div>
                                         <br>
-                      
-                                <div class="text-center">
-                                    <button class="btn btn-info btn-lg" name="submit" value="Submit">Submit</button>
-                        
-                                </form>
-                                        <br>
-                                </section>
-                                        <br>
-                                        <hr> 
-                                  
-                      
-                     
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-info btn-send" value="Send Message">
+                                </div>
+                            </form>
+                        </div>                 
+            </section>
+            
 <!-- Location Map plugin -->
     
 <article>   
   <center>
-    <div class="mapouter"><div class="gmap_canvas"><iframe width="333" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+  <div class="mapouter"><div class="gmap_canvas"><iframe width="333" height="333" id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
   
-        </iframe><a href="https://www.pureblack.de">pureblack.de</a></div>
-        <style>.mapouter{text-align:right;height:333px;width:333px;}.gmap_canvas {overflow:hidden;background:none!important;height:333px;width:333px;}</style>
+  </iframe><a href="#"></a></div>
+  <style>.mapouter{text-align:right;height:333px;width:333px;}.gmap_canvas {overflow:hidden;background:none!important;height:333px;width:333px;}</style>
   
-    </div>
+  </div>
   </center>
 </article>
     
-<div class="container-fluid">
+    <div class="container-fluid">
     <div id="map_canvas" class="map_canvas">
     </div>
-</div>
-    <br>                    
-                            
-         
-    <!-- Getting space between header and main-container -->
-
-   </main>
-    <footer class="panel-footer">
+    </div>
+    <br>
+    
+<!-- Getting space between header and main-container -->
+            
+<!-- footer -->
+    
+    <footer>
         <div class="container text-center">
-          <h3>Social Media</h3>
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
             <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>
             <a class="btn btn-link" href="https://www.instagram.com/theweignitetechprogram"><i class="fab fa-instagram fa-2x"></i></a>
+        </div>   
             
-                <div class="container-fluid text-center"><div>
-            
-                <h5>All rights reserved &copy WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</h5>
-           
-          </div>
-     </footer>
+     <div class="footer">All Rights Reserved <strong>&copy</strong> WIT:IP The Website Development Team: <br>Hiruth, Grace, Osman and Jehad</div>
+     
+     <style>
+.footer {
+  
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  background-color: white;
+  text-align: center;
+  color: #047364;
+  font-family: Arial;
+}
+
+.footer:hover {
+  color: black;
+  text-shadow: 0 0 15px silver;
+  transition: all 0.5s ease;
+}
+     </style>
+         
+</footer>
 
   <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
     <div class="script" content="take script out of div and place at the bottom after editing!">
