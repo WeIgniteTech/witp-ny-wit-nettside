@@ -77,6 +77,16 @@ nav.navbar {
 }
 
 /* #wit-carousel*/
+.scrollingtext h5{
+    text-shadow: 2px 2px 2px white;
+    font-size: 3rem;
+    color: #047364;
+    font-weight: 800;
+}
+.scrollingtext p5{
+    font-size: 2rem;
+
+}
 #wit-carousel img{
     object-position: center 50%;
     object-fit: cover;
