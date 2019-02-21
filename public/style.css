@@ -114,6 +114,9 @@ nav.navbar {
 li a:hover {
     color: #111;
 }
+p.a {
+    font-style: italic;
+}
 /*WITP at index side*/
 section.color-1 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
