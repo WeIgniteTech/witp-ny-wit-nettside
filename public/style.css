@@ -114,9 +114,6 @@ nav.navbar {
 li a:hover {
     color: #111;
 }
-p.a {
-    font-style: italic;
-}
 /*WITP at index side*/
 section.color-1 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -124,11 +121,17 @@ section.color-1 {
     color: #fff;
     background: #047364;
     padding: 5vh 15px 5vh 15px;
+}
 
+.item{
+    padding: 2vh;
+    margin-bottom: 1vh;
 }
-.information{
-    text-align: center;
+
+.index-info-top{
+    
 }
+
 .information h2{
     margin: 1em;
     color:black;
@@ -146,7 +149,8 @@ section.color-1 {
     text-align: center;
 }
 #kube-features {
-    margin-top: 104px;
+    margin: 1vh;
+    padding: 1vh;
     text-align: center;
 }
 
