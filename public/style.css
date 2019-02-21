@@ -128,14 +128,15 @@ section.color-1 {
     margin: 1vh;
 }
 
+/*  
 .index-info-border-vert{
- /*   border-bottom: 1px solid white;   
+  border-bottom: 1px solid white;   
     border-right: 2px solid white;
     border-image: linear-gradient(to top, white 50%, white );
     border-image-slice: 1;
 }
 .index-info-border-top{
-    border-bottom: 1px solid white;    */
+    border-bottom: 1px solid white;   
     border-top: 2px solid white;
     border-image: linear-gradient(to top, white 50%, white );
     border-image-slice: 1; 
