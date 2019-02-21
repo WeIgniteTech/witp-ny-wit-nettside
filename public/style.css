@@ -144,7 +144,6 @@ section.color-1 {
 }
 
 .item{
-    padding: 
     margin: 1vh;
 }
 
@@ -221,7 +220,7 @@ font-size: 5vh;
 #testemonials p{
     font-family:'Courgette';
     color: white;
-    font-size: 1.vh;
+    font-size: 1vh;
 }
 
 .col-12 {
@@ -307,7 +306,7 @@ color: #FF5733;
 #testemonials p{
     font-family:'Courgette';
     color: white;
-    font-size: 1.vh;
+    font-size: 1vh;
 }
 
 /* CHAT */
@@ -382,7 +381,7 @@ color: #FF5733;
 
 
  /* Carousel */
-html
+html,
  .carousel-inner{
      margin: 0;
      height: 30%;
@@ -572,7 +571,7 @@ box-shadow: 1px white;
 }
 nav {
     padding-left: 20px;
-    padding-top: 0px;
+    padding-top: 0;
     border-bottom: 2px solid #047364;
     
 }
