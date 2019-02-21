@@ -22,6 +22,16 @@ $( document ).ready(function() {
         typeEffect($('p5'), speed);
     }, delay);
 });
+$( document ).ready(function() {
+    var speed = 75;
+    var delay = $('h6').text().length * speed + speed;
+    typeEffect($('h6'), speed);
+    setTimeout(function(){
+        $('p6').css('display', 'inline-block');
+        typeEffect($("p6"), speed);
+    }, delay);
+});
+
 
 //carousel slider autoplay start and stop on mousehover and mouseleave
 var owl = $(".active");
