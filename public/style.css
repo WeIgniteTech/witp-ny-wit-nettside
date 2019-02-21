@@ -160,6 +160,17 @@ section.color-1 {
     border-image: linear-gradient(to top, white 50%, white );
     border-image-slice: 1; 
 } */
+.container hr {
+    width: 50%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#047364;
+    border: 0 none;
+    margin-top: 2px;
+    margin-bottom: 10px;
+
+}
 
 .information h2{
     margin: 1em;
