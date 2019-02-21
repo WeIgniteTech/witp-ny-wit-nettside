@@ -124,13 +124,22 @@ section.color-1 {
 }
 
 .item{
-    padding: 2vh;
-    margin-bottom: 1vh;
+    padding: 
+    margin: 1vh;
 }
 
-.index-info-top{
-    
+.index-info-border-vert{
+ /*   border-bottom: 1px solid white;   
+    border-right: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1;
 }
+.index-info-border-top{
+    border-bottom: 1px solid white;    */
+    border-top: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1; 
+} */
 
 .information h2{
     margin: 1em;
