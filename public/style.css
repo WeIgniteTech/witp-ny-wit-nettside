@@ -114,9 +114,6 @@ nav.navbar {
 li a:hover {
     color: #111;
 }
-p.a {
-    font-style: italic;
-}
 /*WITP at index side*/
 section.color-1 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -124,11 +121,27 @@ section.color-1 {
     color: #fff;
     background: #047364;
     padding: 5vh 15px 5vh 15px;
+}
 
+.item{
+    padding: 
+    margin: 1vh;
 }
-.information{
-    text-align: center;
+
+/*  
+.index-info-border-vert{
+  border-bottom: 1px solid white;   
+    border-right: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1;
 }
+.index-info-border-top{
+    border-bottom: 1px solid white;   
+    border-top: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1; 
+} */
+
 .information h2{
     margin: 1em;
     color:black;
@@ -146,7 +159,8 @@ section.color-1 {
     text-align: center;
 }
 #kube-features {
-    margin-top: 104px;
+    margin: 1vh;
+    padding: 1vh;
     text-align: center;
 }
 
