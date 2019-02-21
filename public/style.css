@@ -144,7 +144,8 @@ section.color-1 {
 }
 
 .item{
-    margin: 1vh;
+    padding: 1vh;
+    margin-bottom: 1vh;
 }
 
 /*  
