@@ -525,6 +525,14 @@ button.btn {
 }
 /*About us page*/
 /*Text*/
+.insta-text{
+    color: black;
+    font-family: Lobster;
+}
+.insta-text span{
+    color: #E1306C;
+
+}
 
 /*instafeed*/
 .mentorCards{
