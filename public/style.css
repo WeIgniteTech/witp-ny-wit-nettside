@@ -8,14 +8,9 @@ nav.navbar {
     -webkit-box-shadow: 0 8px 8px -6px #999;
     -moz-box-shadow: 0 8px 8px -6px #999;
     box-shadow: 0 8px 8px -6px #999;
-    margin-bottom: 1px;
+    margin-bottom: 0px;
 }
 
-#navbar{ 
-    top:0;
-    width: 100%;
-    transition: top .5s;
-}
 #navbarMenu{
     background-color: white;    
 }
@@ -57,8 +52,7 @@ nav .navbar-toggler{
 
 .navbar.navbar-inverse .navbar-nav>li{
     padding: 1vh;
-    margin-bottom: none !important;
-    
+    margin-bottom: none !important;    
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
@@ -85,8 +79,7 @@ nav .navbar-toggler{
 }
 
 /* #wit-carousel*/
- /* Carousel */
-html,
+
  .carousel-inner{
      margin: 0;
      height: 30%;
