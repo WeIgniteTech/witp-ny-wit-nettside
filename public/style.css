@@ -90,6 +90,7 @@ nav .navbar-toggler{
      text-align: center;
      font-family: 'monospace', monospace;
      color: #999;
+     filter: brightness(.9);
  }
 
  h5,h6 {
