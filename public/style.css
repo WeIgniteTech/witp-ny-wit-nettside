@@ -2,6 +2,20 @@ body {
     margin: 200px;
 }
 
+nav.navbar {
+    background-color:white;
+    border-color: white;
+    -webkit-box-shadow: 0 8px 8px -6px #999;
+    -moz-box-shadow: 0 8px 8px -6px #999;
+    box-shadow: 0 8px 8px -6px #999;
+    margin-bottom: 1px;
+}
+
+#navbar{ 
+    top:0;
+    width: 100%;
+    transition: top .5s;
+}
 #navbarMenu{
     background-color: white;    
 }
@@ -21,6 +35,7 @@ nav .navbar-toggler{
     color: #047364;
     font-size: 24px;
     padding: 1vw;
+    margin-top: 2px;
     font-family: san-seriff;
     font-weight: bold;
 }
@@ -39,14 +54,7 @@ nav .navbar-toggler{
 .glyphicon:hover{
     color: #232b2b;
 }
-nav.navbar {
-    background-color:white;
-    border-color: white;
-    margin-bottom: 0px !important;
-     -webkit-box-shadow: 0 8px 8px -6px #999;
-    -moz-box-shadow: 0 8px 8px -6px #999;
-    box-shadow: 0 8px 8px -6px #999;
-}
+
 .navbar.navbar-inverse .navbar-nav>li{
     padding: 1vh;
     margin-bottom: none !important;
@@ -64,11 +72,6 @@ nav.navbar {
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
     color: #232b2b;
-}
-
-.navbar .navbar-brand{
-    margin-top: 2px;
-    font-size: 24px;  
 }
 
 .container{

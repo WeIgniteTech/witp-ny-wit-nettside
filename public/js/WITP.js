@@ -1,30 +1,14 @@
-//Navbar collapse on scroll
-//function checkOffset() {
-  //  $(".navbar-fixed-top").toggleClass("top-nav-collapse", $(".navbar").offset().top > 50);
-//}
-
-
-$(document).ready(function() {
-
-    // Put your offset checking in a function
-    function checkOffset() {
-        if ($(".navbar").offset().top > 50) {
-            $(".navbar").addClass("top-nav-collapse");
-        }     
-        else {
-            $(".navbar-fixed-top").removeClass("top-nav-collapse");
-        }
+/* Hide the navbar when scroll down, show when scroll up. */
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function () {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-20px";
     }
-
-    //When the page loads
-    checkOffset();
-
-
-    //Run when scrolling
-    $(window).scroll(function() {
-        checkOffset();
-    });
-});
+    prevScrollpos = currentScrollPos;
+}
 
 //Form
 function openForm() {
