@@ -8,9 +8,13 @@ nav.navbar {
     -webkit-box-shadow: 0 8px 8px -6px #999;
     -moz-box-shadow: 0 8px 8px -6px #999;
     box-shadow: 0 8px 8px -6px #999;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
 }
-
+nav.navscroll{
+    z-index: 99;
+    
+    
+}
 #navbarMenu{
     background-color: white;    
 }
@@ -382,6 +386,32 @@ background: #FF5733;
             border: 3px solid #f1f1f1;
             z-index: 9;
         }
+.courseUpdates{
+    padding: 1vh;
+    margin: 2vh;
+    left: 0;
+    font-size: 2vw;
+}
+
+.courseUpdates input{
+    font-size: 2vh; 
+    border: 1px black solid;
+    padding: 0px;
+}
+.courseUpdates button{
+    font-size: 2vh;
+    border: 1px black solid;
+    padding: 0px;
+
+}.courseUpdates form{
+    border: 3px solid #047364;
+    border-radius: 15px;
+    z-index: 99;
+    margin-bottom: 1vh;
+    width: 39%;
+    position: absolute;
+}
+
         /* Add styles to the form container */
         .form-container {
             max-width: 300px;
@@ -517,9 +547,7 @@ form .input-group{
     justify-content: center;
     display: flex;
 }
-.promise{
-    float: left;
-}
+
 .input-group {
     margin: 20px auto;
     width: 10%;
