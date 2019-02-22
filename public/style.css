@@ -294,17 +294,18 @@ color: #35465c;
 }
 
 .fa-instagram {
-    /*color: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+    /*color: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1F306C, #FD1D1D);
     color: #517fa4; */
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 
     color: white;
     border-radius: 8px;
-    width: 29px;
-    height: 29px;
+    width: 28px;
+    height: 28px;
 }
+
 .fa-github:hover,
 .fa-facebook:hover{
     color: #FF5733;
@@ -558,9 +559,8 @@ button.btn {
     font-family: Lobster;
 }
 .insta-text span{
-    color: #E1306C;
-
-}
+    color: #E1306C;    
+} 
 
 /*instafeed*/
 .mentorCards{
