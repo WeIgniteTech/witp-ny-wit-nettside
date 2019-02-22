@@ -28,7 +28,7 @@ $(document).ready(function () {
         }
     });
 });
-'use strict';     
+
 $().ready(function() {
             $('[rel="tooltip"]').tooltip();
         });

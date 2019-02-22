@@ -8,9 +8,13 @@ nav.navbar {
     -webkit-box-shadow: 0 8px 8px -6px #999;
     -moz-box-shadow: 0 8px 8px -6px #999;
     box-shadow: 0 8px 8px -6px #999;
-    margin-bottom: 0px;
+    margin-bottom: 0px;    
 }
-
+nav.navscroll{
+    z-index: 99;
+    
+    
+}
 #navbarMenu{
     background-color: white;    
 }
@@ -294,13 +298,25 @@ color: #35465c;
 }
 
 .fa-instagram {
-color: #517fa4;
+    /*color: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1F306C, #FD1D1D);
+    color: #517fa4; */
+    background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+    color: white;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
 }
 
-.fa-facebook:hover,
 .fa-github:hover,
+.fa-facebook:hover{
+    color: #FF5733;
+}
+
 .fa-instagram:hover {
-color: #FF5733;
+background: #FF5733;
 }
 
 /* hva er dette til? */
@@ -370,6 +386,32 @@ color: #FF5733;
             border: 3px solid #f1f1f1;
             z-index: 9;
         }
+.courseUpdates{
+    padding: 1vh;
+    margin: 2vh;
+    left: 0;
+    font-size: 2vw;
+}
+
+.courseUpdates input{
+    font-size: 2vh; 
+    border: 1px black solid;
+    padding: 0px;
+}
+.courseUpdates button{
+    font-size: 2vh;
+    border: 1px black solid;
+    padding: 0px;
+
+}.courseUpdates form{
+    border: 3px solid #047364;
+    border-radius: 15px;
+    z-index: 99;
+    margin-bottom: 1vh;
+    width: 39%;
+    position: absolute;
+}
+
         /* Add styles to the form container */
         .form-container {
             max-width: 300px;
@@ -505,9 +547,7 @@ form .input-group{
     justify-content: center;
     display: flex;
 }
-.promise{
-    float: left;
-}
+
 .input-group {
     margin: 20px auto;
     width: 10%;
@@ -547,9 +587,8 @@ button.btn {
     font-family: Lobster;
 }
 .insta-text span{
-    color: #E1306C;
-
-}
+    color: #E1306C;    
+} 
 
 /*instafeed*/
 .mentorCards{
