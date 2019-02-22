@@ -97,6 +97,9 @@ nav.navbar {
     font-size: 2rem;
 
 }
+#wit-carousel.index1 img {
+    object-position: center 40%;
+}
 #wit-carousel img{
     object-position: center 50%;
     object-fit: cover;
