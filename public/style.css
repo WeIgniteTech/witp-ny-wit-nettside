@@ -2,6 +2,15 @@ body {
     margin: 200px;
 }
 
+nav.navbar {
+    background-color:white;
+    border-color: white;
+    -webkit-box-shadow: 0 8px 8px -6px #999;
+    -moz-box-shadow: 0 8px 8px -6px #999;
+    box-shadow: 0 8px 8px -6px #999;
+    margin-bottom: 0px;
+}
+
 #navbarMenu{
     background-color: white;    
 }
@@ -21,6 +30,7 @@ nav .navbar-toggler{
     color: #047364;
     font-size: 24px;
     padding: 1vw;
+    margin-top: 2px;
     font-family: san-seriff;
     font-weight: bold;
 }
@@ -39,15 +49,10 @@ nav .navbar-toggler{
 .glyphicon:hover{
     color: #232b2b;
 }
-nav.navbar {
-    background-color:white;
-    border-color: white;
-    margin-bottom: 0px !important;
-}
+
 .navbar.navbar-inverse .navbar-nav>li{
     padding: 1vh;
-    margin-bottom: none !important;
-    
+    margin-bottom: none !important;    
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
@@ -56,14 +61,11 @@ nav.navbar {
     font-weight: bold;
     font-family: sans-serif;
     float: right;
+    margin-right: .08vw;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
     color: #232b2b;
-}
-
-.navbar .navbar-brand{
-    font-size: 24px;     
 }
 
 .container{
@@ -77,6 +79,22 @@ nav.navbar {
 }
 
 /* #wit-carousel*/
+
+ .carousel-inner{
+     margin: 0;
+     height: 30%;
+     text-align: center;
+     font-family: 'monospace', monospace;
+     color: #999;
+ }
+
+ h5,h6 {
+     text-transform: uppercase;
+     letter-spacing: 1pt;
+     font-size: 2 vh;
+     margin-bottom: 15px;
+     color: white;
+ }
 .scrollingtext h5{
     text-shadow: 2px 2px 2px white;
     font-size: 3rem;
@@ -395,23 +413,7 @@ color: #FF5733;
 
 
 
- /* Carousel */
-html,
- .carousel-inner{
-     margin: 0;
-     height: 30%;
-     text-align: center;
-     font-family: 'monospace', monospace;
-     color: #999;
- }
 
- h5,h6 {
-     text-transform: uppercase;
-     letter-spacing: 1pt;
-     font-size: 2 vh;
-     margin-bottom: 15px;
-     color: white;
- }
 
  p5,p6 {
      text-align: center;
