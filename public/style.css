@@ -2,6 +2,19 @@ body {
     margin: 200px;
 }
 
+nav.navbar {
+    background-color:white;
+    border-color: white;
+    -webkit-box-shadow: 0 8px 8px -6px #999;
+    -moz-box-shadow: 0 8px 8px -6px #999;
+    box-shadow: 0 8px 8px -6px #999;
+    margin-bottom: 0px;    
+}
+nav.navscroll{
+    z-index: 99;
+    
+    
+}
 #navbarMenu{
     background-color: white;    
 }
@@ -21,6 +34,7 @@ nav .navbar-toggler{
     color: #047364;
     font-size: 24px;
     padding: 1vw;
+    margin-top: 2px;
     font-family: san-seriff;
     font-weight: bold;
 }
@@ -39,15 +53,10 @@ nav .navbar-toggler{
 .glyphicon:hover{
     color: #232b2b;
 }
-nav.navbar {
-    background-color:white;
-    border-color: white;
-    margin-bottom: 0px !important;
-}
+
 .navbar.navbar-inverse .navbar-nav>li{
     padding: 1vh;
-    margin-bottom: none !important;
-    
+    margin-bottom: none !important;    
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a{
@@ -56,14 +65,11 @@ nav.navbar {
     font-weight: bold;
     font-family: sans-serif;
     float: right;
+    margin-right: .08vw;
 }
 
 .navbar.navbar-inverse .navbar-nav>li>a:hover{
     color: #232b2b;
-}
-
-.navbar .navbar-brand{
-    font-size: 24px;     
 }
 
 .container{
@@ -77,6 +83,46 @@ nav.navbar {
 }
 
 /* #wit-carousel*/
+
+ .carousel-inner{
+     margin: 0;
+     height: 30%;
+     text-align: center;
+     font-family: 'monospace', monospace;
+     color: #999;
+     filter: brightness(.9);
+ }
+
+ h5,h6 {
+     text-transform: uppercase;
+     letter-spacing: 1pt;
+     font-size: 2 vh;
+     margin-bottom: 15px;
+     color: white;
+ }
+.scrollingtext h5{
+    text-shadow: 2px 2px 2px white;
+    font-size: 3rem;
+    color: #047364;
+    font-weight: 800;
+}
+.scrollingtext2 h6 {
+    text-shadow: 2px 2px 2px white;
+    font-size: 3rem;
+    color: #047364;
+    font-weight: 800;
+}
+.scrollingtext p5{
+    font-size: 2rem;
+
+}
+.scrollingtext2 p6 {
+    font-size: 2rem;
+
+}
+#wit-carousel.index1 img {
+    object-position: center 40%;
+}
 #wit-carousel img{
     object-position: center 50%;
     object-fit: cover;
@@ -129,11 +175,38 @@ section.color-1 {
     color: #fff;
     background: #047364;
     padding: 5vh 15px 5vh 15px;
+}
+
+.item{
+    padding: 1vh;
+    margin-bottom: 1vh;
+}
+
+/*  
+.index-info-border-vert{
+  border-bottom: 1px solid white;   
+    border-right: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1;
+}
+.index-info-border-top{
+    border-bottom: 1px solid white;   
+    border-top: 2px solid white;
+    border-image: linear-gradient(to top, white 50%, white );
+    border-image-slice: 1; 
+} */
+.container hr {
+    width: 50%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#047364;
+    border: 0 none;
+    margin-top: 2px;
+    margin-bottom: 10px;
 
 }
-.information{
-    text-align: center;
-}
+
 .information h2{
     margin: 1em;
     color:black;
@@ -151,7 +224,8 @@ section.color-1 {
     text-align: center;
 }
 #kube-features {
-    margin-top: 104px;
+    margin: 1vh;
+    padding: 1vh;
     text-align: center;
 }
 
@@ -192,7 +266,7 @@ font-size: 5vh;
 #testemonials p{
     font-family:'Courgette';
     color: white;
-    font-size: 1.vh;
+    font-size: 1vh;
 }
 
 .col-12 {
@@ -233,13 +307,25 @@ color: #35465c;
 }
 
 .fa-instagram {
-color: #517fa4;
+    /*color: linear-gradient(45DEG, #405DE6, #5851DB, #833AB4, #C13584, #E1F306C, #FD1D1D);
+    color: #517fa4; */
+    background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+    color: white;
+    border-radius: 8px;
+    width: 28px;
+    height: 28px;
 }
 
-.fa-facebook:hover,
 .fa-github:hover,
+.fa-facebook:hover{
+    color: #FF5733;
+}
+
 .fa-instagram:hover {
-color: #FF5733;
+background: #FF5733;
 }
 
 /* hva er dette til? */
@@ -278,7 +364,7 @@ color: #FF5733;
 #testemonials p{
     font-family:'Courgette';
     color: white;
-    font-size: 1.vh;
+    font-size: 1vh;
 }
 
 /* CHAT */
@@ -309,6 +395,32 @@ color: #FF5733;
             border: 3px solid #f1f1f1;
             z-index: 9;
         }
+.courseUpdates{
+    padding: 1vh;
+    margin: 2vh;
+    left: 0;
+    font-size: 2vw;
+}
+
+.courseUpdates input{
+    font-size: 2vh; 
+    border: 1px black solid;
+    padding: 0px;
+}
+.courseUpdates button{
+    font-size: 2vh;
+    border: 1px black solid;
+    padding: 0px;
+
+}.courseUpdates form{
+    border: 3px solid #047364;
+    border-radius: 15px;
+    z-index: 99;
+    margin-bottom: 1vh;
+    width: 39%;
+    position: absolute;
+}
+
         /* Add styles to the form container */
         .form-container {
             max-width: 300px;
@@ -352,25 +464,9 @@ color: #FF5733;
 
 
 
- /* Carousel */
-html
- .carousel-inner{
-     margin: 0;
-     height: 30%;
-     text-align: center;
-     font-family: 'monospace', monospace;
-     color: #999;
- }
 
- h5 {
-     text-transform: uppercase;
-     letter-spacing: 1pt;
-     font-size: 2 vh;
-     margin-bottom: 15px;
-     color: white;
- }
 
- p5 {
+ p5,p6 {
      text-align: center;
      margin: 0;
 
@@ -382,17 +478,18 @@ html
  }
 
 
- #table {
+ #table #table2{
      display: table;
      width: 100%;
      height: 100%;
      background-color: transparent;
  }
 
- #centeralign {
+ #centeralign #centeralign2 {
      display: table-cell;
      vertical-align: middle;
  }
+
  /* Apply now */
 .google-form{
     margin-top: -20px;
@@ -405,7 +502,7 @@ html
 }
 #applynow-body{
     background-color:#047364 ;
-}
+} 
 .centered{
     position: absolute;
     top: 38%;
@@ -459,9 +556,7 @@ form .input-group{
     justify-content: center;
     display: flex;
 }
-.promise{
-    float: left;
-}
+
 .input-group {
     margin: 20px auto;
     width: 10%;
@@ -496,6 +591,13 @@ button.btn {
 }
 /*About us page*/
 /*Text*/
+.insta-text{
+    color: black;
+    font-family: Lobster;
+}
+.insta-text span{
+    color: #E1306C;    
+} 
 
 /*instafeed*/
 .mentorCards{
@@ -528,7 +630,7 @@ box-shadow: 1px white;
 }
 
 
-/* Contact Us top photo */
+/*  */
 .no-padding {
         padding-left: 0;
         padding-right: 0;
@@ -542,7 +644,7 @@ box-shadow: 1px white;
 }
 nav {
     padding-left: 20px;
-    padding-top: 0px;
+    padding-top: 0;
     border-bottom: 2px solid #047364;
     
 }
@@ -560,8 +662,10 @@ nav {
 .nav li a {
   color: #000;
 }
+
+/* contact us gif */
 .hero-img {
-  background-image: url("https://media.giphy.com/media/25FYP033b6ztXoYliw/giphy.gif");
+  background-image: url("https://media.giphy.com/media/BLxYP9ZLyNyjnrqmgJ/giphy.gif");
   max-width: 100%;
   height: 200px;
   background-position: center;
@@ -600,3 +704,55 @@ background-repeat: no-repeat;
     text-shadow: 0 0 15px silver;
     transition: all 0.5s ease;
 }
+
+
+
+/* Apply now 
+.google-form{
+    margin-top: -20px;
+    background-color: #047364;
+}
+.centered p{
+    font-size: 5vh;
+}
+#applynow-body{
+    background-color:#047364 ;
+} 
+.centered{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: #9e9e9ea1;
+    font-size: 10vh;
+}
+
+.applynow-headerimage img{
+
+    width: 100%;
+    max-height: 58vh;
+    position: relative;
+    object-fit: cover;
+    object-position: center 40%;
+    display: inline-block;
+}
+input.applyinterest.btn.btn-lg{
+    background-color: white;
+}
+.applyinterest.well{
+    background-color: transparent;
+    text-align: center;
+
+}
+.applyinterest.well h4{
+    color: white;
+}
+.applyfooter{
+    background-color: white;
+    display: block;
+}
+
+*/
