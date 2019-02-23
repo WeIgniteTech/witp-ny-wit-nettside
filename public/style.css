@@ -679,6 +679,13 @@ background-repeat: no-repeat;
     font-size: 10vh;
 }
 
+.applyfooter{
+    background-color: white;
+    display: block;
+}
+
+*/
+
 .applynow-headerimage img{
 
     width: 100%;
@@ -699,9 +706,3 @@ input.applyinterest.btn.btn-lg{
 .applyinterest.well h4{
     color: white;
 }
-.applyfooter{
-    background-color: white;
-    display: block;
-}
-
-*/
