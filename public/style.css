@@ -75,6 +75,9 @@ nav .navbar-toggler{
 .container{
     padding-bottom: 1vh;
 }
+.applynow-headerimage{
+    text-align: center;
+}
 
 .header-content{
     margin-bottom: 1vh;
@@ -517,7 +520,7 @@ input.btn.btn-lg:focus {
     height: 60px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: #047364;
+    background-color: white;
 }
 button.btn {
     width: 50%;
