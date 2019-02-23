@@ -117,6 +117,11 @@ li a:hover {
 p.a {
     font-style: italic;
 }
+.text-center hr{
+    width: 50%;
+    backgroundcolor: #047364;
+    height: 40%;
+}
 /*WITP at index side*/
 section.color-1 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
