@@ -75,6 +75,9 @@ nav .navbar-toggler{
 .container{
     padding-bottom: 1vh;
 }
+.applynow-headerimage{
+    text-align: center;
+}
 
 .header-content{
     margin-bottom: 1vh;
@@ -159,6 +162,14 @@ nav .navbar-toggler{
 }
 li a:hover {
     color: #111;
+}
+p.a {
+    font-style: italic;
+}
+.text-center hr{
+    width: 50%;
+    backgroundcolor: #047364;
+    height: 40%;
 }
 /*WITP at index side*/
 section.color-1 {
@@ -482,58 +493,7 @@ background: #FF5733;
      vertical-align: middle;
  }
 
- /* Apply now */
-.google-form{
-    margin-top: -20px;
-    background-color: #047364;
-}
-.centered p{
-    font-size: 5vh;
-
-
-}
-#applynow-body{
-    background-color:#047364 ;
-}
-.centered{
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate( -50%, -50% );
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    background: #9e9e9ea1;
-    font-size: 10vh;
-}
-
-
-.applynow-headerimage img{
-
-    width: 100%;
-    max-height: 58vh;
-    position: relative;
-    object-fit: cover;
-    object-position: center 40%;
-    display: inline-block;
-}
-input.applyinterest.btn.btn-lg{
-    background-color: white;
-}
-.applyinterest.well{
-    background-color: transparent;
-    text-align: center;
-
-}
-.applyinterest.well h4{
-    color: white;
-}
-.applyfooter{
-    background-color: white;
-    display: block;
-}
-
-
+ 
 /* button interest for witp program */  
 .jumbotron-WITP{
     color: white;
@@ -560,7 +520,7 @@ input.btn.btn-lg:focus {
     height: 60px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: #047364;
+    background-color: white;
 }
 button.btn {
     width: 50%;
@@ -695,4 +655,57 @@ background-repeat: no-repeat;
     color: black;
     text-shadow: 0 0 15px silver;
     transition: all 0.5s ease;
+}
+
+
+
+/* Apply now 
+.google-form{
+    margin-top: -20px;
+    background-color: #047364;
+}
+.centered p{
+    font-size: 5vh;
+}
+#applynow-body{
+    background-color:#047364 ;
+} 
+.centered{
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background: #9e9e9ea1;
+    font-size: 10vh;
+}
+
+.applyfooter{
+    background-color: white;
+    display: block;
+}
+
+*/
+
+.applynow-headerimage img{
+
+    width: 100%;
+    max-height: 58vh;
+    position: relative;
+    object-fit: cover;
+    object-position: center 40%;
+    display: inline-block;
+}
+input.applyinterest.btn.btn-lg{
+    background-color: white;
+}
+.applyinterest.well{
+    background-color: transparent;
+    text-align: center;
+
+}
+.applyinterest.well h4{
+    color: white;
 }
