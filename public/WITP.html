@@ -15,6 +15,9 @@
     <!-- External CSS file(s) -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- AOS Lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- External font styles -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
@@ -73,8 +76,8 @@
             <p class="text-dark">The program is for people with some prior knowledge and experience with programming, who want to refresh and update their knowledge to meet the requirements of the labour market. So join us and be part of the cool WE IGNITE TECH team!</p>
             <p class="text-dark">Are you, or someone you know who is the right candidate? Keep reading! :)</p>
             </div>
-            <div class="col-12">
-            <h3 class="text-dark"><strong>How Does It Work?</strong></h3>
+            <div class="col-12" >
+            <h3 class="text-dark" id="courseUpdates"><strong>How Does It Work?</strong></h3>
             <p class="text-dark text-justify">In the span of 4 months, you will improve your technical skills and learn what is required of you to work as a developer in Norway. The program will combine practical training in programming, development of your personal skills, build professional network and give you insight into relevant job opportunities.</p>
             <p class="text-dark">Customized to candidate with some prior tech experience</p>
             <p class="text-dark">5 - 10 students</p>
@@ -84,7 +87,7 @@
         </div>
     </div>
     <div class="container">
-            <h3 class="text-dark text-center"><strong>What Will You Gain?</strong></h3>
+            <h3 class="text-dark text-center" ><strong>What Will You Gain?</strong></h3>
         <div class="row">
            <div class="col-6">
             <h3 class="text-dark">Technical Training:</h3>
@@ -151,18 +154,16 @@
         <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
     </div>
     <!-- courseUpdates -->
-<div class="courseUpdates text-center">
-    
-    <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
-        <div class="input-group">
+<div class="courseUpdates text-center" >
+    <form id="anchoring_box" data-aos="fade-right" data-aos-anchor="#courseUpdates" method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+        <div >
            <b>Subscribe for course dates!</b>
-            <input class="applyinterest btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
-            <button class="btn btn-info btn-lg" type="submit">Send me<br>course updates!</button>
+            <input class="applyinterest btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required><button class="btn btn-info btn-lg" type="submit">Send me<br>course updates!</button>
             <small class="promise"><strong>*We won't send spam.</strong></small>
         </div>
     </form>
     </div>
-    <!--footer here-->
+   <!--footer here-->
     <footer>
         <div class="container text-center">
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
@@ -173,17 +174,25 @@
     </footer>
     <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
     <div class="script" content="take script out of div and place at the bottom after editing!">
+        <!--AOS-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         
-       <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-       
+    
         <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
         <!--Carousel-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+        <script type="text/javascript" >AOS.init();</script>
+
         <script src="js/WITP.js"></script>
         <script src="js/scrollMe.js"></script>
     </div>
