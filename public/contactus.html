@@ -51,14 +51,14 @@
             <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
         </div>
         <script>
-    
+
         </script>
     </header>
     <!-- contact us photo -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <img src="contactus.jpg" alt="" class="img-responsive"/>
+                <img src="contactus.jpg" alt="" class="img-responsive" />
             </div>
         </div>
     </div>
@@ -66,7 +66,7 @@
         <div class="hero-img col-sm-12">
         </div>
     </div>
-   
+
     <!-- Contact Form -->
     <div class="container">
         <section id="contact">
@@ -75,40 +75,38 @@
                 <h4>Our friendly We Ignite Tech team is eager to help you</h4>
                 <br>
             </div>
-<div class="container contactform-container">
-    <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post"      -->
-    
-    <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
-    <!-- this method will work that message info will be sent directly to an email provided -->
-        <div class="text-left">
-           
-            <i class="glyphicon glyphicon-user"></i>
-            <label for="name" id="name"> Name :</label>
-            <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
-            <br>
-            <i class="glyphicon glyphicon-envelope"></i>
-            <label for="email" id="email"> Email Address :</label>
-            <input autofocus type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
-            <br>
-            <i class="glyphicon glyphicon-pencil"></i>
-            <label for="message" id="message"> Message :</label>
-            <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
-            <br>
-            <div>
+            <div class="container contactform-container">
+                <!-- form action="/action_page.php" onsubmit="return validateForm()" method="post"      -->
+                <form method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+                    <!-- this method will work that message info will be sent directly to an email provided -->
+                    <div class="text-left">
+
+                        <i class="glyphicon glyphicon-user"></i>
+                        <label for="name" id="name"> Name :</label>
+                        <input autofocus type="text" id="name-label" name="name" class="form-control" placeholder="Enter your name" required>
+                        <br>
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <label for="email" id="email"> Email Address :</label>
+                        <input autofocus type="email" id="email" name="email" class="form-control" placeholder="Enter your email address" required>
+                        <br>
+                        <i class="glyphicon glyphicon-pencil"></i>
+                        <label for="message" id="message"> Message :</label>
+                        <textarea id="message-label" name="message" class="form-control" rows="5" placeholder="Enter your message" required="required"></textarea>
+                        <br>
+                        <div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="text-center">
+                        <input type="submit" class="btn btn-dark btn-send " value="Send Message">
+                    </div>
+                </form>
             </div>
-        </div>
-        <br>
-        <div class="text-center">
-            <input type="submit" class="btn btn-dark btn-send " value="Send Message">
-        </div>
-    </form>
-</div>
-</section>
-</div>
-<br>
-    
-<!-- Location Map plugin -->
-<!-- <div class="jumbotron jumbotron-green align-items-center">
+        </section>
+    </div>
+    <br>
+    <!-- Location Map plugin -->
+    <!-- <div class="jumbotron jumbotron-green align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-12 align-items-center mapouter">
@@ -122,8 +120,7 @@
         </div>
     </div>
 </div> -->
-    
-<main>
+    <!--    OLD
   <div class="jumbotron jumbotron-green">
     <div class="container gmap">
         <h2 class="text-center"><strong><i>Drop in and say hi...</i></strong></h2><br>
@@ -137,7 +134,7 @@
     </div>
     <div class="col-6">
       <!-- <h3 class="text-dark text-left"><strong>Google Map</strong></h4> -->
-        <!-- Location Map plugin -->
+    <!-- Location Map plugin ->
 
     <div class="container-location">
         <div class="row">
@@ -150,10 +147,39 @@
             </div>
        </div>
     </div>
-</main> 
-           
-<!--footer here-->
-<footer>
+    -->
+    <!-- NEW -->
+    <div class="jumbotron jumbotron-green">
+        <div class="container text-white">
+            <div class="sentralen">
+                <h2 class="text-center">
+                    <strong>We are located at <a href="https://www.sentralen.no/en/"> Sentralen</a></strong></h2>
+                <h4 class="text-center"><i>- Meeting place, workshop and performance venue.<br> In the heart of Oslo. </i><br></h4>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-adress text-center">
+                        <h3>Sentralen</h3><br>
+                        <p>5 etg. SoCentral</p><br>
+                        <p>Øvre Slottsgate 3</p><br>
+                        <p>0157 Oslo</p>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <!-- <h3 class="text-dark text-left"><strong>Google Map</strong></h4> -->
+                    <!-- Location Map plugin -->
+
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=%C3%B8vre%20slottsgate%203&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer here-->
+    <footer>
         <div class="container text-center">
             <a class="btn btn-link" href="https://www.facebook.com/weareinprogress"><i class="fab fa-facebook fa-2x" aria-hidden="true"></i></a>
             <a class="btn btn-link" href="https://github.com/WeIgniteTech" aria-hidden="true"><i class="fab fa-github fa-2x"></i></a>

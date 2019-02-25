@@ -638,7 +638,10 @@ background-repeat: no-repeat;
     width: 333px;
     display: block;
 }
-
+.gmap_canvas iframe{
+    width: 300px;
+    height: 300px; 
+}
 /* Footer */
 .footer {
     right: 0;
