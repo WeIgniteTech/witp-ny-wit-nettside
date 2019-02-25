@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link href='css/rotating-card.css' rel='stylesheet' />
     <link href='css/bootstrap.css' rel='stylesheet' />
+    
+       <!-- AOS Lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
     <!-- External font styles -->
@@ -98,7 +101,7 @@
                                 <div class="footer">
                                     <div class="social-links text-center">
                                         <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
-                                        <a href="https://www.linkedin.com/in/linn-tomasdotter-40102b42/" class="linkedin"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
                                         <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
                                     </div>
                                 </div>
@@ -118,7 +121,7 @@
                                 </div>
                                 <div class="content">
                                     <div class="main">
-                                        <h3 class="name">Linn</h3>
+                                        <h3 class="name">Linn Tomasdotter</h3>
                                         <p class="profession">Coach</p>
                                         <p class="text-center">Consultant at Tinkr</p>
                                     </div>
@@ -144,7 +147,7 @@
                                 <div class="footer">
                                     <div class="social-links text-center">
                                         <a href="#" class="facebook"><i class="fab fa-facebook fa-fw"></i></a>
-                                        <a href="#" class="facebook"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.linkedin.com/in/linn-tomasdotter-40102b42/" class="linkedin" class="linkedin"><i class="fab fa-linkedin"></i></a> <a href="#" class="facebook"><i class="fab fa-instagram"></i></a>
                                         <a href="#" class="twitter"><i class="fab fa-twitter fa-fw"></i></a>
                                     </div>
                                 </div>
@@ -253,7 +256,7 @@
                 <h3 class="text-center"><strong>What Is We Ignite Tech?</strong></h3>
                 <p class="text-justify">We Ignite Tech is a full stack developer program for newcomers in Norway. The aim is to contribute to raising the competence levels of newcomers with IT-background to ensure they become more relevant as employees for Norwegian businesses. Both through
                     programming skills and soft skills.</p><br>
-                <h3 class="text-center"><strong>Why We Ignite Tech?</strong></h3>
+                <h3 class="text-center" id="courseUpdates"><strong>Why We Ignite Tech?</strong></h3>
                 <p class="text-justify">We aim to help businesses with their recruitment and inclusion. And we want to enable newcomers to build a relevant professional network and get closer to relevant job opportunities. Newcomers have experience, higher education, good ideas, initiatives
                     and inspiration that are valuable for Norwegian businesses. There is a huge demand for developers and digital heads. Meanwhile, newcomers with valuable tech background are not given the opportunity to update their practical knowledge to meet the
                     requirements of the market and be part of the global tech community. Our mission is to find solutions to bridge that gap: the We Ignite Tech program.</p>
@@ -270,12 +273,22 @@
         <div class="text-center insta-text">
             <h2><strong>Follow Us On <span class="insta"> Instagram</span></strong></h2>
         </div>
-        <div id="instafeed" class="row justify-content-center gallery"></div>
-        <img class="ip-logo" src="images/IP-logo.png" alt="In:progress-logo">    
+        <div id="instafeed" class="row justify-content-center gallery"></div><a href="https://www.weareinprogress.no/">
+        <img class="ip-logo" src="images/IP-logo.png" alt="In:progress-logo"></a>    
     </div>
 
     <div class="chat-popup" id="myForm">
         <script src="https://embed.small.chat/TD2KT5HMYGG2L2701Y.js" async></script>
+    </div>
+        <!-- CourseUpdates" -->
+    <div class="courseUpdates text-center" >
+    <form id="anchoring_box" data-aos="fade-right" data-aos-anchor="#courseUpdates" method="post" action="https://briskforms.com/go/de47d3e3cca00a1b25e42671a7f80b65">
+        <div >
+           <b>Subscribe for course dates!</b>
+            <input class="applyinterest btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required><button class="btn btn-info btn-lg" type="submit">Send me<br>course updates!</button>
+            <small class="promise"><strong>*We won't send spam.</strong></small>
+        </div>
+    </form>
     </div>
 
     <!--footer here-->
@@ -291,6 +304,7 @@
     <!-- Bootstrap Core JS. Placed at the end of the document so the pages load faster!! -->
     <div class="script" content="take script out of div and place at the bottom after editing!">
         <!-- Button Interest for WITP Program -->
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
         <script src="./js/instafeed.min.js"></script>
         <script src="./js/myCustom.js"></script>
