@@ -317,9 +317,9 @@ color: #35465c;
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
 
     color: white;
-    border-radius: 8px;
-    width: 28px;
-    height: 28px;
+    border-radius: 0.31em;
+    width: 1.1em;
+    height: auto;
 }
 
 .fa-github:hover,
@@ -405,7 +405,7 @@ background: #FF5733;
     z-index: 99;
 }
 #anchoring_box{
-    max-height: 10vh;
+    max-height: 19vh;
     position: fixed;
     bottom: 1vh;
     left: 2vw;
@@ -416,7 +416,6 @@ background: #FF5733;
     font-size: 2vh; 
     border: 1px black solid;
     padding: 0px;
-    max-height: 5vh;
 }
 .courseUpdates button{
     font-size: 2vh;
@@ -715,6 +714,8 @@ background-repeat: no-repeat;
 }
 input.applyinterest.btn.btn-lg{
     background-color: white;
+    margin: 0px;
+    padding: 0px;
 }
 .applyinterest.well{
     background-color: transparent;
