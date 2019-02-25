@@ -407,7 +407,7 @@ background: #FF5733;
 #anchoring_box{
     max-height: 19vh;
     position: fixed;
-    bottom: 1vh;
+    bottom: 8.5em;
     left: 2vw;
     margin: auto;
 }
@@ -423,11 +423,13 @@ background: #FF5733;
     padding: 0px;
 
 }.courseUpdates form{
+    background: #047364;
     border: 3px solid #047364;
     border-radius: 15px;
     z-index: 99;
     margin-bottom: 1vh;
-    width: 39%;
+    width: 40vh;
+    font-size: 14px; 
     position: absolute;
 }
 
