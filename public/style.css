@@ -8,8 +8,11 @@ nav.navbar {
     -webkit-box-shadow: 0 8px 8px -6px #999;
     -moz-box-shadow: 0 8px 8px -6px #999;
     box-shadow: 0 8px 8px -6px #999;
-    margin-bottom: 0px;    
+    margin-bottom: 0px;
+    position: fixed;
 }
+
+
 
 #navbarMenu{
     background-color: white;    
@@ -29,6 +32,7 @@ nav .navbar-toggler{
     color: green;
     background-color: green;
     background: green;
+    margin-top: 60px;
 }
 .navbar.navbar-inverse .navbar-brand {
     color: #047364;
@@ -500,7 +504,8 @@ background: #FF5733;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30vh;    
+    height: 30vh;
+    margin-top: 75px;
 }
 
 form .input-group{
@@ -556,7 +561,8 @@ button.btn {
 }
 
 .jumbotron-green {
-    background-color: #047364 !important; 
+    background-color: #047364 !important;
+    margin-top: 75px;
 }
 .instafeed{
     padding: 1rem;
@@ -622,6 +628,7 @@ nav {
   background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
+    margin-top: 75px;
 }
 
 /* Location map plugin */
