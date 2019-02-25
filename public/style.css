@@ -1,6 +1,5 @@
 body {
     margin: 200px;
-    font-family: proxima-nova !important;
 }
     
 nav.navbar {
@@ -26,13 +25,17 @@ nav .navbar-toggler{
     min-width: 6vh;
     color: #047364;
 }
-
+#IP-logo{
+    color: green;
+    background-color: green;
+    background: green;
+}
 .navbar.navbar-inverse .navbar-brand {
     color: #047364;
     font-size: 24px;
     padding: 1vw;
     margin-top: 2px;
-    font-family: san-seriff; ??
+    font-family: sans-serif;
     font-weight: bold;
 }
 .navbar.navbar-inverse .navbar-brand:hover {
@@ -60,7 +63,7 @@ nav .navbar-toggler{
     color: #047364;
     font-size: 16px;
     font-weight: bold;
-    font-family: proxima-nova;
+    font-family: sans-serif;
     float: right;
     margin-right: .08vw;
 }
@@ -88,7 +91,7 @@ nav .navbar-toggler{
      margin: 0;
      height: 30%;
      text-align: center;
-     font-family: 'monospace', monospace;
+     font-family: sans-serif;
      color: #999;
      filter: brightness(.9);
  }
@@ -165,12 +168,12 @@ p.a {
 }
 .text-center hr{
     width: 50%;
-    backgroundcolor: #047364;
+    background-color: #047364;
     height: 40%;
 }
 /*WITP at index side*/
 section.color-1 {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: sans-serif;
     object-fit: cover;
     color: #fff;
     background: #047364;
@@ -249,11 +252,11 @@ font-size: 5vh;
 .fa-chalkboard-teacher{
     font-size: 5vh;
     
-}
+}F
 
 /*Main area */
 #mission-message{
-    font-family: Pompiere;
+    font-family: sans-serif;
     font-size: 3vh;
 }
 
@@ -264,7 +267,7 @@ font-size: 5vh;
 
 }
 #testemonials p{
-    font-family:'Courgette';
+    font-family: sans-serif;
     color: white;
     font-size: 1vh;
 }
@@ -362,7 +365,6 @@ background: #FF5733;
 
 }
 #testemonials p{
-    font-family:'Courgette';
     color: white;
     font-size: 1vh;
 }
@@ -589,7 +591,7 @@ box-shadow: 1px white;
 }
 .logo {
   font-size: 50px;
-  font-family: "Times New Roman, serif";
+  font-family: sans-serif;
 }
 nav {
     padding-left: 20px;
@@ -648,7 +650,7 @@ background-repeat: no-repeat;
     background-color: white;
     text-align: center;
     color: #047364;
-    font-family: Arial;
+    font-family: sans-serif;
 }
 
 .footer:hover {
