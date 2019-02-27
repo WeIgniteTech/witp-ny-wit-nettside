@@ -14,9 +14,6 @@ nav.navbar {
     margin-bottom: 0px;
 
 }
-
-
-
 #navbarMenu{
     background-color: white;    
 }
@@ -137,7 +134,8 @@ nav .navbar-toggler{
     object-position: center 50%;
     object-fit: cover;
     max-height: 50vh;
-    margin-top: 50px;
+    margin-top: 80px;
+
 }
 .page-header-img{
     position: absolute;
@@ -153,7 +151,6 @@ nav .navbar-toggler{
     min-height: 60vh;
     border: 0.5px solid black;
 }
-
 .right-div{
     background-color: #d9bfbf;
     padding-top:15vh; 
@@ -162,7 +159,6 @@ nav .navbar-toggler{
     height: 30vh;
     border: 5px solid black;
 }
-
 .testimonial-Slider{
     width: 50%;
     max-width:50vw;  
@@ -260,7 +256,7 @@ font-size: 5vh;
 .fa-chalkboard-teacher{
     font-size: 5vh;
     
-}F
+}
 
 /*Main area */
 #mission-message{
