@@ -135,6 +135,7 @@ nav .navbar-toggler{
     object-fit: cover;
     max-height: 50vh;
     margin-top: 80px;
+
 }
 .page-header-img{
     position: absolute;
@@ -386,6 +387,7 @@ background: #FF5733;
             opacity: 0.8;
             position: fixed;
             bottom: 23px;
+            bottom: 23px;
             right: 28px;
             width: 280px;
             
@@ -416,14 +418,22 @@ background: #FF5733;
 }
 
 .courseUpdates input{
-    font-size: 2vh; 
+    font-size: 1.3rem; 
     border: 1px black solid;
-    padding: 0px;
+    padding: 1px;
+    margin: 1px 2px 1px 0px;
+    max-height: 4vh;
+    max-width: 14vw;
+    
 }
 .courseUpdates button{
-    font-size: 2vh;
+    font-size: 1.3rem;
     border: 1px black solid;
-    padding: 0px;
+    padding: 1px;
+    margin: 1px 2px 1px 0px;
+    max-height: 4vh;
+    max-width: 14vw;
+    position: relative;
 
 }.courseUpdates form{
     background: #047364;
@@ -431,7 +441,8 @@ background: #FF5733;
     border-radius: 15px;
     z-index: 99;
     margin-bottom: 1vh;
-    width: 40vh;
+    height: 8rem;
+    width: 28vh;
     font-size: 14px; 
     position: absolute;
 }
